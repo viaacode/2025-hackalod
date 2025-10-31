@@ -1,0 +1,134 @@
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix schema: <https://schema.org/>.
+
+wd:Q52101 schema:name "Middelburg"@nl.
+wd:Q100022 schema:name "Sint Geertruid"@nl.
+wd:Q1002717 schema:name "Schoorl"@nl.
+wd:Q1019527 schema:name "Reuver"@nl.
+wd:Q1031430 schema:name "Habsburgse Nederlanden"@nl.
+wd:Q1055 schema:name "Hamburg"@nl.
+wd:Q109535 schema:name "Zutphen"@nl.
+wd:Q1114 schema:name "Oost-Vlaanderen"@nl.
+wd:Q1122 schema:name "Waals-Brabant"@nl.
+wd:Q1129 schema:name "Henegouwen"@nl.
+wd:Q12130 schema:name "Bretagne"@nl.
+wd:Q123624 schema:name "Holborn"@nl.
+wd:Q124129 schema:name "Clerkenwell"@nl.
+wd:Q12557060 schema:name "Veghel"@nl.
+wd:Q12887 schema:name "Schaarbeek"@nl.
+wd:Q1296 schema:name "Gent"@nl.
+wd:Q12994 schema:name "Brugge"@nl.
+wd:Q131329 schema:name "Arras"@nl.
+wd:Q142 schema:name "Frankrijk"@nl.
+wd:Q148349 schema:name "Lambeth"@nl.
+wd:Q155144 schema:name "Elzas-Lotharingen"@nl.
+wd:Q15910469 schema:name "Winterswijk"@nl.
+wd:Q1605184 schema:name "Hengelo"@nl.
+wd:Q16977290 schema:name "Alkmaar"@nl.
+wd:Q1726 schema:name "München"@nl.
+wd:Q1731 schema:name "Dresden"@nl.
+wd:Q1741 schema:name "Wenen"@nl.
+wd:Q1748 schema:name "Kopenhagen"@nl.
+wd:Q1754 schema:name "Stockholm"@nl.
+wd:Q1792 schema:name "Gdańsk"@nl.
+wd:Q1794 schema:name "Frankfurt am Main"@nl.
+wd:Q180775 schema:name "Sint-Jans-Molenbeek"@nl.
+wd:Q181285 schema:name "Cambrai"@nl.
+wd:Q183 schema:name "Duitsland"@nl.
+wd:Q183464 schema:name "Lijfland"@nl.
+wd:Q18542624 schema:name "Hoei"@nl.
+wd:Q1858964 schema:name "Bakel"@nl.
+wd:Q18691547 schema:name "Hoogeveen"@nl.
+wd:Q1869375 schema:name "Valkenswaard"@nl.
+wd:Q192508 schema:name "Bergen op Zoom"@nl.
+wd:Q193826 schema:name "Dowaai"@nl.
+wd:Q193832 schema:name "Cagnes-sur-Mer"@nl.
+wd:Q2044 schema:name "Florence"@nl.
+wd:Q2054185 schema:name "Goor"@nl.
+wd:Q2079 schema:name "Leipzig"@nl.
+wd:Q2090 schema:name "Neurenberg"@nl.
+wd:Q2095935 schema:name "Norsholm"@nl.
+wd:Q21 schema:name "Engeland"@nl.
+wd:Q211260 schema:name "Zaandam"@nl.
+wd:Q21195 schema:name "Scandinavië"@nl.
+wd:Q2197808 schema:name "Helvoirt"@nl.
+wd:Q22 schema:name "Schotland"@nl.
+wd:Q220 schema:name "Rome"@nl.
+wd:Q2260299 schema:name "Koog aan de Zaan"@nl.
+wd:Q23140 schema:name "Warwickshire"@nl.
+wd:Q23666 schema:name "Groot-Brittannië"@nl.
+wd:Q237 schema:name "Vaticaanstad"@nl.
+wd:Q239 schema:name "Brussel"@nl.
+wd:Q2456238 schema:name "Mortlake"@nl.
+wd:Q25412 schema:name "Västerås"@nl.
+wd:Q2542409 schema:name "Schaarsbergen"@nl.
+wd:Q2583037 schema:name "Deurne"@nl.
+wd:Q26345 schema:name "Kalmar"@nl.
+wd:Q2687417 schema:name "Wilrijk"@nl.
+wd:Q26881 schema:name "Helsingør"@nl.
+wd:Q271072 schema:name "Gisors"@nl.
+wd:Q2749 schema:name "Augsburg"@nl.
+wd:Q2766547 schema:name "'s-Hertogenbosch"@nl.
+wd:Q27996474 schema:name "Noordelijke Nederlanden"@nl.
+wd:Q282729 schema:name "Ouderkerk aan de Amstel"@nl.
+wd:Q288 schema:name "Tours"@nl.
+wd:Q29 schema:name "Spanje"@nl.
+wd:Q30023910 schema:name "Casale Monferrato"@nl.
+wd:Q3020702 schema:name "Deersum"@nl.
+wd:Q31 schema:name "België"@nl.
+wd:Q3116939 schema:name "Groot-Ammers"@nl.
+wd:Q31487 schema:name "Krakau"@nl.
+wd:Q31578134 schema:name "Edingen"@nl.
+wd:Q31824036 schema:name "Ieper"@nl.
+wd:Q31824126 schema:name "Oudenaarde"@nl.
+wd:Q32018624 schema:name "Friedrichstadt"@nl.
+wd:Q3322237 schema:name "Venlo"@nl.
+wd:Q33421377 schema:name "Amersfoort"@nl.
+wd:Q33423050 schema:name "Baarn"@nl.
+wd:Q33425149 schema:name "Bloemendaal"@nl.
+wd:Q33426218 schema:name "Brielle"@nl.
+wd:Q33439340 schema:name "Gouda"@nl.
+wd:Q33465180 schema:name "Mülheim"@nl.
+wd:Q33467336 schema:name "Nieuwkoop"@nl.
+wd:Q33467704 schema:name "Noordwijkerhout"@nl.
+wd:Q33511501 schema:name "Veldhoven"@nl.
+wd:Q33512335 schema:name "Vlissingen"@nl.
+wd:Q33527010 schema:name "Zeist"@nl.
+wd:Q33946 schema:name "Tsjecho-Slowakije"@nl.
+wd:Q34 schema:name "Zweden"@nl.
+wd:Q34217 schema:name "Oxford"@nl.
+wd:Q34370 schema:name "Rotterdam"@nl.
+wd:Q35 schema:name "Denemarken"@nl.
+wd:Q365 schema:name "Keulen"@nl.
+wd:Q38 schema:name "Italië"@nl.
+wd:Q39121 schema:name "Leeds"@nl.
+wd:Q40844 schema:name "Breda"@nl.
+wd:Q40898 schema:name "Nancy"@nl.
+wd:Q41262 schema:name "Nottingham"@nl.
+wd:Q41604 schema:name "Amiens"@nl.
+wd:Q46 schema:name "Europa"@nl.
+wd:Q478036 schema:name "Schoonhoven"@nl.
+wd:Q4859886 schema:name "Barcheston"@nl.
+wd:Q5273898 schema:name "Southwark"@nl.
+wd:Q5465 schema:name "Kaapstad"@nl.
+wd:Q597 schema:name "Lissabon"@nl.
+wd:Q64 schema:name "Berlijn"@nl.
+wd:Q6454 schema:name "Calais"@nl.
+wd:Q648 schema:name "Rijsel"@nl.
+wd:Q649 schema:name "Moskou"@nl.
+wd:Q65 schema:name "Los Angeles"@nl.
+wd:Q6548 schema:name "Orléans"@nl.
+wd:Q656 schema:name "Sint-Petersburg"@nl.
+wd:Q6581823 schema:name "Zuidelijke Nederlanden"@nl.
+wd:Q70 schema:name "Bern"@nl.
+wd:Q71 schema:name "Genève"@nl.
+wd:Q714783 schema:name "Kasteel van Gripsholm"@nl.
+wd:Q727 schema:name "Amsterdam"@nl.
+wd:Q73022 schema:name "Sittard"@nl.
+wd:Q803 schema:name "Utrecht"@nl.
+wd:Q809821 schema:name "Voorburg"@nl.
+wd:Q84 schema:name "Londen"@nl.
+wd:Q84957520 schema:name "Noordwijk aan Zee"@nl.
+wd:Q90 schema:name "Parijs"@nl.
+wd:Q970701 schema:name "Gemert"@nl.
+wd:Q9836 schema:name "Gemert-Bakel"@nl.
