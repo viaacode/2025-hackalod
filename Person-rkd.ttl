@@ -1,0 +1,2103 @@
+@prefix artists: <https://data.rkd.nl/artists/>.
+@prefix schema: <https://schema.org/>.
+
+artists:240503 a schema:Person;
+    schema:name "Moor, Frans de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:309233 a schema:Person;
+    schema:name "Baume-Dürrbach, J. de la"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:327337 a schema:Person;
+    schema:name "Schütz-Wolff, Johanna"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:333110 a schema:Person;
+    schema:name "Boteram, Rinaldo"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:40087 a schema:Person;
+    schema:name "Houzé, Florentin"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:434237 a schema:Person;
+    schema:name "Woedstad, Gaston"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:435676 a schema:Person;
+    schema:name "Plancken, Frans van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:43580 a schema:Person;
+    schema:name "Kat, Ewoud de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:436144 a schema:Person;
+    schema:name "Wauters, Jacob"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:43778 a schema:Person;
+    schema:name "Kelk, Fanny"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:439021 a schema:Person;
+    schema:name "Clerck, Jan de (1486)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:443994 a schema:Person;
+    schema:name "Heyman, Peter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:44839 a schema:Person;
+    schema:name "Rinse-Klinkenberg, Anna Elisabeth"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453941 a schema:Person;
+    schema:name "Borcht a Castro, Jacques van der (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453944 a schema:Person;
+    schema:name "Borcht, Jan van der (III)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453946 a schema:Person;
+    schema:name "Borcht a Castro, Gaspar van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453947 a schema:Person;
+    schema:name "Borcht a Castro, Jacques van der (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453948 a schema:Person;
+    schema:name "Borcht, Peter van der (1712-1763)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453949 a schema:Person;
+    schema:name "Borcht, Jan-Frans van der (-1774)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453956 a schema:Person;
+    schema:name "Cobus, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453957 a schema:Person;
+    schema:name "Coppens, François (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453960 a schema:Person;
+    schema:name "Cracht, Pieter de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453962 a schema:Person;
+    schema:name "Eurck, Christiaen van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453963 a schema:Person;
+    schema:name "Goossenson, Abraham Adriaensz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453966 a schema:Person;
+    schema:name "Lepelaer, Arent Jansz. de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453968 a schema:Person;
+    schema:name "Melter, Jan de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453969 a schema:Person;
+    schema:name "Oorlofs, Erasmus"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453970 a schema:Person;
+    schema:name "Pannemaker, François de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:453971 a schema:Person;
+    schema:name "Schaep, Tobias (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:454522 a schema:Person;
+    schema:name "Quina, Remacules"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:457393 a schema:Person;
+    schema:name "Nauwincx, Joris"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:457477 a schema:Person;
+    schema:name "Eggermans, Daniel (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:457491 a schema:Person;
+    schema:name "Clerck, Jan de (1634)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:457551 a schema:Person;
+    schema:name "Reydams, Hendrik (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:457557 a schema:Person;
+    schema:name "Brugghen, Jaspar van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:457634 a schema:Person;
+    schema:name "Cornelissen, Jan Frans"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:457635 a schema:Person;
+    schema:name "Wauters, Maria Anna"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:457765 a schema:Person;
+    schema:name "Clerck, Hieronymus de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:45790 a schema:Person;
+    schema:name "Koopmans, Grietje"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458002 a schema:Person;
+    schema:name "Spiering van Silvercroon, Pieter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458232 a schema:Person;
+    schema:name "Cordijs, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458265 a schema:Person;
+    schema:name "Puttere, Hendrik de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458371 a schema:Person;
+    schema:name "Maecht, Huybrecht de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458375 a schema:Person;
+    schema:name "Maecht, Jan de (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458412 a schema:Person;
+    schema:name "Maecht, Heyndrick de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458414 a schema:Person;
+    schema:name "Maecht, Laurens de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458425 a schema:Person;
+    schema:name "Cammen, Jehan van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458431 a schema:Person;
+    schema:name "Cammen, Philippe van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458433 a schema:Person;
+    schema:name "Cammen, Hendrik van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458461 a schema:Person;
+    schema:name "Dermoyen, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458462 a schema:Person;
+    schema:name "Dermoyen, Willem"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458474 a schema:Person;
+    schema:name "Dermoyen, Christiaan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458476 a schema:Person;
+    schema:name "Dobbeleer, Claes de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458477 a schema:Person;
+    schema:name "Eggermans, Daniel (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458480 a schema:Person;
+    schema:name "Ghieteels, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458481 a schema:Person;
+    schema:name "Ghieteels, Frans"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458482 a schema:Person;
+    schema:name "Goten, Jan van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458483 a schema:Person;
+    schema:name "Goten, Jacob van der (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458484 a schema:Person;
+    schema:name "Grenier, Jean"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458486 a schema:Person;
+    schema:name "Haze, Jan de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458490 a schema:Person;
+    schema:name "Hecke, Leo van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458492 a schema:Person;
+    schema:name "Hecke, Jan van den (-1634)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458526 a schema:Person;
+    schema:name "Herzeele, Joost van (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458530 a schema:Person;
+    schema:name "Kempeneer, Willem de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458532 a schema:Person;
+    schema:name "Kempeneer, Jan de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458536 a schema:Person;
+    schema:name "Leemans, Joris"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458538 a schema:Person;
+    schema:name "Leyniers, Gillis (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458545 a schema:Person;
+    schema:name "Pannemaker, Erasmus de (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458636 a schema:Person;
+    schema:name "Roelants, Matthijs"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458668 a schema:Person;
+    schema:name "Poissonnier, Arnould"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458669 a schema:Person;
+    schema:name "Poissonnier, Jean"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458749 a schema:Person;
+    schema:name "Raes, Frans"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458757 a schema:Person;
+    schema:name "Reymbouts, Nicolaas"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458759 a schema:Person;
+    schema:name "Reymbouts, Frans"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458762 a schema:Person;
+    schema:name "Roelants, Willem"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458778 a schema:Person;
+    schema:name "Tons, Cornelis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458779 a schema:Person;
+    schema:name "Tons, François"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458786 a schema:Person;
+    schema:name "Vos, Jan-Frans de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458788 a schema:Person;
+    schema:name "Wauters, Philips"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458790 a schema:Person;
+    schema:name "Zeunen, Joos van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:458994 a schema:Person;
+    schema:name "Beveren, Boudewijn van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:459111 a schema:Person;
+    schema:name "Squilli, Benedetto di Michele"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:459113 a schema:Person;
+    schema:name "Sconditi, Giovanni di Bastiano"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:459308 a schema:Person;
+    schema:name "Wouters, Peter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:459343 a schema:Person;
+    schema:name "Regelbrugge, Abel"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:459344 a schema:Person;
+    schema:name "Reghelbrugghe, Joannes"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:459484 a schema:Person;
+    schema:name "Maecht, Philipp de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:459485 a schema:Person;
+    schema:name "Tayer, Hans"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:459614 a schema:Person;
+    schema:name "Cettomai, Felice"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490160 a schema:Person;
+    schema:name "Goten, Frans van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490162 a schema:Person;
+    schema:name "Goten, Jacob van der (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490192 a schema:Person;
+    schema:name "Steenbach, Frans van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490194 a schema:Person;
+    schema:name "Steenbeke, Joris van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490224 a schema:Person;
+    schema:name "Hasselt, Bernardino van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490270 a schema:Person;
+    schema:name "Mattens, Andreas"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490499 a schema:Person;
+    schema:name "Karcher, Nicolas"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490506 a schema:Person;
+    schema:name "Karcher, Hans"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490512 a schema:Person;
+    schema:name "Slot, Gerard"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490532 a schema:Person;
+    schema:name "Gesulis, Giovanni de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490537 a schema:Person;
+    schema:name "Hasselt, Jacob Ebert van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490542 a schema:Person;
+    schema:name "Hasselt, Pieter van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:490662 a schema:Person;
+    schema:name "Buck, Gerard de (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500803 a schema:Person;
+    schema:name "Utersprot, Hendrick"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500805 a schema:Person;
+    schema:name "Tielen, Cornelis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:501191 a schema:Person;
+    schema:name "Roy, Christian de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:502104 a schema:Person;
+    schema:name "Pere, Hans van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:502748 a schema:Person;
+    schema:name "Vanderbank, John (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:502819 a schema:Person;
+    schema:name "Spiers, Aernout"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:502864 a schema:Person;
+    schema:name "Pull, Hans van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:502884 a schema:Person;
+    schema:name "Schelkens, Gillis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:502938 a schema:Person;
+    schema:name "Os, Dierick van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503066 a schema:Person;
+    schema:name "Hersella de Flandria, Levinus"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503067 a schema:Person;
+    schema:name "Gigli, Livino"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503068 a schema:Person;
+    schema:name "Johanne de Brugondia"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503211 a schema:Person;
+    schema:name "Vliete, Jacob van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503581 a schema:Person;
+    schema:name "Mostinck, Cornelius"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503583 a schema:Person;
+    schema:name "Welles, Henry"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503585 a schema:Person;
+    schema:name "Nachtegael, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503646 a schema:Person;
+    schema:name "Boom, Arnold van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503649 a schema:Person;
+    schema:name "Vercord, John"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503651 a schema:Person;
+    schema:name "Ampe, Josse"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503652 a schema:Person;
+    schema:name "Plancke, NN"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503653 a schema:Person;
+    schema:name "Lens, Jacques"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503655 a schema:Person;
+    schema:name "Hullenberch, Francis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503657 a schema:Person;
+    schema:name "Hullenberch, Garrett"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503659 a schema:Person;
+    schema:name "Culvenaer, John"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503662 a schema:Person;
+    schema:name "Culvenaer, Mary"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503664 a schema:Person;
+    schema:name "Culvenaer, Stephen"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503669 a schema:Person;
+    schema:name "Benood, William (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503671 a schema:Person;
+    schema:name "Benood, William (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503672 a schema:Person;
+    schema:name "May, Stephen de (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503675 a schema:Person;
+    schema:name "May, Matthew de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503677 a schema:Person;
+    schema:name "Bridges, James (1670)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503679 a schema:Person;
+    schema:name "Leefdael, Peter van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503682 a schema:Person;
+    schema:name "Culvenaer, Peter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:503818 a schema:Person;
+    schema:name "Verbellis, Janes de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:505496 a schema:Person;
+    schema:name "Stommans , Pieter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:505589 a schema:Person;
+    schema:name "Comans, Alexander de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:506963 a schema:Person;
+    schema:name "Ruffelaer, Pieter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:506964 a schema:Person;
+    schema:name "Goetvrient, Adriaen"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:506968 a schema:Person;
+    schema:name "Grootendale, Steven van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:506970 a schema:Person;
+    schema:name "Chimay, Gossaert"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:506993 a schema:Person;
+    schema:name "Schepper, Matthys de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:507580 a schema:Person;
+    schema:name "Goes, Hendrick van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:508021 a schema:Person;
+    schema:name "Gheyntelm, Philippus Joannis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:508022 a schema:Person;
+    schema:name "Blaine, Rinaldo Jean de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:508098 a schema:Person;
+    schema:name "Thale, Hugo vom"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:508295 a schema:Person;
+    schema:name "Stalpaert, Jeremyas"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:518006 a schema:Person;
+    schema:name "Rovere, Christoffel de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:518030 a schema:Person;
+    schema:name "Brackens, Diedrick"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:518051 a schema:Person;
+    schema:name "Hasselet, Catharina"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:518063 a schema:Person;
+    schema:name "Heizele, Perceval"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:518114 a schema:Person;
+    schema:name "Segon, Anthonis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:518231 a schema:Person;
+    schema:name "Tsas, Hendrik"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:518323 a schema:Person;
+    schema:name "Ruddere, Jan de (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:518331 a schema:Person;
+    schema:name "Godefroyt, Laureyns"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:518332 a schema:Person;
+    schema:name "Godefroyt, Joseph"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:518333 a schema:Person;
+    schema:name "Godefroyt, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:518334 a schema:Person;
+    schema:name "Godefroyt, Pierre"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:518335 a schema:Person;
+    schema:name "Godefroyt, Adriaen"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:520031 a schema:Person;
+    schema:name "Buck, Jaques de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:520335 a schema:Person;
+    schema:name "Diertyns, Joris"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:520336 a schema:Person;
+    schema:name "Gindertalen, Anthonis van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:520338 a schema:Person;
+    schema:name "Diertyns, Hendrick"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:520450 a schema:Person;
+    schema:name "Crayloot, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:520451 a schema:Person;
+    schema:name "Crayloot, François"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:520452 a schema:Person;
+    schema:name "Crayloot, Jacob"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:520453 a schema:Person;
+    schema:name "Crayloot, Anselmus"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:520454 a schema:Person;
+    schema:name "Crayloot, Louis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:520455 a schema:Person;
+    schema:name "Crayloot, Denijs"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:520456 a schema:Person;
+    schema:name "Crayloot, Rogier"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:521117 a schema:Person;
+    schema:name "Acker, Abraham Matthysz. van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:521246 a schema:Person;
+    schema:name "Aubry, Reynault"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:521297 a schema:Person;
+    schema:name "Strete, Cornelius van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:521301 a schema:Person;
+    schema:name "Clerc, Jan de (1484)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:521341 a schema:Person;
+    schema:name "Paradis, Jehan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:521604 a schema:Person;
+    schema:name "Escamaing, Michel d'"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:521608 a schema:Person;
+    schema:name "Costers, François de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:521609 a schema:Person;
+    schema:name "Carpentier, Etienne"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:521953 a schema:Person;
+    schema:name "Roy, Lorenz van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:522884 a schema:Person;
+    schema:name "Brussel, Albert van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:522942 a schema:Person;
+    schema:name "Cassel, Jacques de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:522970 a schema:Person;
+    schema:name "Lattre, Giovanni de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:522975 a schema:Person;
+    schema:name "Croisetes, Jehan de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:522978 a schema:Person;
+    schema:name "Birgières, Jacquemin"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:522979 a schema:Person;
+    schema:name "Flaymal, Rifflard"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:522981 a schema:Person;
+    schema:name "Davion, Nicolas"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:522984 a schema:Person;
+    schema:name "Bouché, Jean-François"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:522988 a schema:Person;
+    schema:name "Feré, Pierre"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:522991 a schema:Person;
+    schema:name "Feré, Jehan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:522994 a schema:Person;
+    schema:name "Plantez, Bernard"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523003 a schema:Person;
+    schema:name "Visse, Jean"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523010 a schema:Person;
+    schema:name "Villers, Jehan de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523018 a schema:Person;
+    schema:name "Potier, Haton le"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523021 a schema:Person;
+    schema:name "Fuzelier, Robert Le"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523023 a schema:Person;
+    schema:name "Wallois, Jehan de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523024 a schema:Person;
+    schema:name "Englentier, Gilles"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523025 a schema:Person;
+    schema:name "Davion, Jacquemart"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523026 a schema:Person;
+    schema:name "Davion, Mathieu"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523031 a schema:Person;
+    schema:name "Gernier, Gillis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523038 a schema:Person;
+    schema:name "Grue, Rinaldo"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523049 a schema:Person;
+    schema:name "Giovanni di Fiandra da Correggio"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523053 a schema:Person;
+    schema:name "Mille, Giovanni"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523055 a schema:Person;
+    schema:name "Mille, Gimenta"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523178 a schema:Person;
+    schema:name "Felicis, Johannes"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523449 a schema:Person;
+    schema:name "Aelst, Pieter van (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523451 a schema:Person;
+    schema:name "Maret, Henry de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523609 a schema:Person;
+    schema:name "Caen, Antheunis (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523615 a schema:Person;
+    schema:name "Claes, Filips"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523616 a schema:Person;
+    schema:name "Clercq, Jan de (1564)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523620 a schema:Person;
+    schema:name "Ahmed, Faig"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523622 a schema:Person;
+    schema:name "Dondre, Francois"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523625 a schema:Person;
+    schema:name "Hauweel, Elias"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523627 a schema:Person;
+    schema:name "Houtte, Janne van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523630 a schema:Person;
+    schema:name "Kethele, Arent de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523631 a schema:Person;
+    schema:name "Mets, Roeland de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523635 a schema:Person;
+    schema:name "Moten, Gillis van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:523637 a schema:Person;
+    schema:name "Oosthende, Jan van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:74297 a schema:Person;
+    schema:name "Spierincx, Aert"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:90350 a schema:Person;
+    schema:name "Blokker-Veggerby, Bodil"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:104620 a schema:Person;
+    schema:name "Smit, Helma"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:25709 a schema:Person;
+    schema:name "Egten, Fiep van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:263076 a schema:Person;
+    schema:name "Karcher, Luigi (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:266194 a schema:Person;
+    schema:name "Hobijn-Roth, May"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:318505 a schema:Person;
+    schema:name "Teinitzerové, Marie"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:324339 a schema:Person;
+    schema:name "Ruperti, Madja"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:353371 a schema:Person;
+    schema:name "Verblaes, Crijn"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:41853 a schema:Person;
+    schema:name "Janssen, Danielle"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:419045 a schema:Person;
+    schema:name "Bouyzgarne, Mohamed"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:419110 a schema:Person;
+    schema:name "Ruffelaer, Davidt"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:476505 a schema:Person;
+    schema:name "Eynde, Catherine van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:476549 a schema:Person;
+    schema:name "Kolvenaer, Pieter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:476575 a schema:Person;
+    schema:name "Lanckaert, Joost Jansz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:476723 a schema:Person;
+    schema:name "Broe, Matthys de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:476858 a schema:Person;
+    schema:name "Thienpont, Joseph"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:476975 a schema:Person;
+    schema:name "Jacop (tapestry weaver)"@en, "Jacop (wandtapijtwever)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:479154 a schema:Person;
+    schema:name "Jansz, Willem (wever)"@nl, "Jansz, Willem (weaver)"@en;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:480087 a schema:Person;
+    schema:name "Assche, Hendrik van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:480467 a schema:Person;
+    schema:name "Weverij De Uil"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:481989 a schema:Person;
+    schema:name "Balota, Ileana"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:482021 a schema:Person;
+    schema:name "Werniers, Willem"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:48257 a schema:Person;
+    schema:name "Lau, Louise P."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:493503 a schema:Person;
+    schema:name "Rost, Jan (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:493505 a schema:Person;
+    schema:name "Rost, Nicolaes"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:493768 a schema:Person;
+    schema:name "Vermeiren, Herman"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:493859 a schema:Person;
+    schema:name "Adriaensz, Cornelis (III)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:495939 a schema:Person;
+    schema:name "Bonaert, Abraham Jansz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:495983 a schema:Person;
+    schema:name "Comans, Marc de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:496204 a schema:Person;
+    schema:name "Borcht, Dillis van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:496215 a schema:Person;
+    schema:name "Weelden, Hans van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:497043 a schema:Person;
+    schema:name "Tseraerts, Cornelis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:497296 a schema:Person;
+    schema:name "Dearle, John Henry"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:498231 a schema:Person;
+    schema:name "La Croix, Jean de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:49858 a schema:Person;
+    schema:name "Leyniers, Daniël (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:499084 a schema:Person;
+    schema:name "Mozin, Jean-Baptiste"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:499386 a schema:Person;
+    schema:name "Santhro, Daniel van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:499917 a schema:Person;
+    schema:name "Lanoy, Guy de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:499948 a schema:Person;
+    schema:name "Roy, Jan de (c. 1470)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:499972 a schema:Person;
+    schema:name "Grienmann, Melchior"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500219 a schema:Person;
+    schema:name "Carmes, Jacob de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500221 a schema:Person;
+    schema:name "Carmes, Moritz de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500232 a schema:Person;
+    schema:name "Mostinck, Jan (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500254 a schema:Person;
+    schema:name "Camerman, Henrick"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500255 a schema:Person;
+    schema:name "Muelen, Anthony van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500262 a schema:Person;
+    schema:name "Offilde, Joyce"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500265 a schema:Person;
+    schema:name "Baert, Arnold"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500271 a schema:Person;
+    schema:name "Happaert, Adriaen"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500273 a schema:Person;
+    schema:name "Pochon, Jean"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500274 a schema:Person;
+    schema:name "Staffeney, Johannes"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500277 a schema:Person;
+    schema:name "Mostinck, Severin"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500279 a schema:Person;
+    schema:name "Wageman, Jan (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500282 a schema:Person;
+    schema:name "Parmentiers, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500283 a schema:Person;
+    schema:name "Lyms, Jacob"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500284 a schema:Person;
+    schema:name "Heyns, Simon"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500293 a schema:Person;
+    schema:name "Inghels, Josse"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500299 a schema:Person;
+    schema:name "Hullenberch, Philip"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500307 a schema:Person;
+    schema:name "Roy, Hans van (1533)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500319 a schema:Person;
+    schema:name "Gorth, Anthonius de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500335 a schema:Person;
+    schema:name "Leymeyers, Heribrecht"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500352 a schema:Person;
+    schema:name "Groze, Jan de la"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500382 a schema:Person;
+    schema:name "Hohenmuel, Heinrich von der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500416 a schema:Person;
+    schema:name "Altenkirchen, Joseph von der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500422 a schema:Person;
+    schema:name "Biest, Gillis van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500424 a schema:Person;
+    schema:name "Bieudre, Hendrik"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500427 a schema:Person;
+    schema:name "Plassegen, Hans van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500432 a schema:Person;
+    schema:name "Bosschen, Hans van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500442 a schema:Person;
+    schema:name "Brusigen, Pieter van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500444 a schema:Person;
+    schema:name "Daele, Jan van den (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500449 a schema:Person;
+    schema:name "Tiegen, Jan van (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500455 a schema:Person;
+    schema:name "Dries, Willem van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500464 a schema:Person;
+    schema:name "Elshen, Anton van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500467 a schema:Person;
+    schema:name "Visch, Jacob de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500468 a schema:Person;
+    schema:name "Vort, Willem van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500478 a schema:Person;
+    schema:name "Fronhove, Wilhelm"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500480 a schema:Person;
+    schema:name "Gehechten, Peter van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500487 a schema:Person;
+    schema:name "Handschumacher, Adrian"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500488 a schema:Person;
+    schema:name "Haring, Peter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500500 a schema:Person;
+    schema:name "Impins, Stephan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500507 a schema:Person;
+    schema:name "Labbé, Herman"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500511 a schema:Person;
+    schema:name "Muerhout, Joseph van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500514 a schema:Person;
+    schema:name "Nai, Jakob de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500518 a schema:Person;
+    schema:name "Necker, Andreas de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500519 a schema:Person;
+    schema:name "Necker, Pasquier de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500521 a schema:Person;
+    schema:name "Nieuwenhoven, Jacob van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500522 a schema:Person;
+    schema:name "Nieuwenhoven, Lucas van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500523 a schema:Person;
+    schema:name "Nieuwenhoven, Paulus van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500536 a schema:Person;
+    schema:name "Roloff, Hans"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500537 a schema:Person;
+    schema:name "Roloff, Peter (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500544 a schema:Person;
+    schema:name "Rosier, Hans"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500547 a schema:Person;
+    schema:name "Sadtes, Abraham"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500549 a schema:Person;
+    schema:name "Schmidt, Martin de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500550 a schema:Person;
+    schema:name "Spierinck, Willem van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500557 a schema:Person;
+    schema:name "Stalrauber, Franciscus"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500558 a schema:Person;
+    schema:name "Walter, Jacob"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500564 a schema:Person;
+    schema:name "Vouters, Dietrich"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500566 a schema:Person;
+    schema:name "Delibet, Marx"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:500612 a schema:Person;
+    schema:name "Baert, Jan (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:509451 a schema:Person;
+    schema:name "Apans, Jacob"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:510223 a schema:Person;
+    schema:name "Baudouyn, Jehan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:510444 a schema:Person;
+    schema:name "Berghe, Peter van den (tapestry weaver)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:510451 a schema:Person;
+    schema:name "Bernard, Michel"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:511515 a schema:Person;
+    schema:name "Lepelaer, Arent Arentsz. de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:511521 a schema:Person;
+    schema:name "Lepelaer, Gillis de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:511523 a schema:Person;
+    schema:name "Lepelaer, Isaac Jansz. de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:511524 a schema:Person;
+    schema:name "Lepelaer, Nicolaes de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:511525 a schema:Person;
+    schema:name "Lepelaer, Peter Roosz. de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:511895 a schema:Person;
+    schema:name "Dermoyen, Roderigo"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512013 a schema:Person;
+    schema:name "Segers, Jan Jansz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512109 a schema:Person;
+    schema:name "Caen, Anthonie (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512112 a schema:Person;
+    schema:name "Huisman, Abraham"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512113 a schema:Person;
+    schema:name "Cauwenbergh, Gillis van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512114 a schema:Person;
+    schema:name "Hoornbeecke, Jan Thysz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512298 a schema:Person;
+    schema:name "Rombouts, Pauwels"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512599 a schema:Person;
+    schema:name "Groot, Jacques de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512681 a schema:Person;
+    schema:name "Bucher, Paul de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512683 a schema:Person;
+    schema:name "Eskilson, Nils"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512698 a schema:Person;
+    schema:name "Morrens, Nicholas"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512701 a schema:Person;
+    schema:name "Brier, Philipp de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512703 a schema:Person;
+    schema:name "Vest, Jacob van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512705 a schema:Person;
+    schema:name "Hendricx, Jacques"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512706 a schema:Person;
+    schema:name "Inghels, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512710 a schema:Person;
+    schema:name "Bock, Hendrick de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512712 a schema:Person;
+    schema:name "Gootens, Carel"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512713 a schema:Person;
+    schema:name "Putter, Carel de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512715 a schema:Person;
+    schema:name "Maeght, Willem de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512717 a schema:Person;
+    schema:name "Hullenberch, Jan (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512719 a schema:Person;
+    schema:name "Hullenberch, Jan (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512724 a schema:Person;
+    schema:name "Ophalfens, Jan (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512725 a schema:Person;
+    schema:name "Maeght, David de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512726 a schema:Person;
+    schema:name "Rosset, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512729 a schema:Person;
+    schema:name "May, Stephen de (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512737 a schema:Person;
+    schema:name "Baese, Joris van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512742 a schema:Person;
+    schema:name "Quickelberghe, Emmanuel van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512743 a schema:Person;
+    schema:name "Quickelberghe, Vincent van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512749 a schema:Person;
+    schema:name "Comans, Hieronymus de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512753 a schema:Person;
+    schema:name "Meus, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512754 a schema:Person;
+    schema:name "Iersick, Willem Pietersz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512756 a schema:Person;
+    schema:name "Cramer, Willem"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512759 a schema:Person;
+    schema:name "Heetwale, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512761 a schema:Person;
+    schema:name "Vispaen, Willem"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512793 a schema:Person;
+    schema:name "Ubbergen, Jan van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512794 a schema:Person;
+    schema:name "Maecht, Guillaume de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512853 a schema:Person;
+    schema:name "Sweerts, Frans (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512855 a schema:Person;
+    schema:name "Sweerts, Frans (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512863 a schema:Person;
+    schema:name "Velde, Joost van de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512872 a schema:Person;
+    schema:name "Holandt, Maerten van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512874 a schema:Person;
+    schema:name "Holandt, Pieter van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512877 a schema:Person;
+    schema:name "Holandt, Elias Pietersz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512886 a schema:Person;
+    schema:name "Rufelaer, Jan Jansz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512943 a schema:Person;
+    schema:name "Acker, Jan Thysz. van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512944 a schema:Person;
+    schema:name "Acker, Matthys Thysz. van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512945 a schema:Person;
+    schema:name "Aelvoet, Pieter Pietersz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512953 a schema:Person;
+    schema:name "Anders, Willem Andriesz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512957 a schema:Person;
+    schema:name "Arcke, Sacharias Cornelis van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512974 a schema:Person;
+    schema:name "Ariensz, Cornelis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:512975 a schema:Person;
+    schema:name "Ariensz., Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513024 a schema:Person;
+    schema:name "Daele, Vincent van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513041 a schema:Person;
+    schema:name "Giachetto di Benedetto d'Arazzo"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513044 a schema:Person;
+    schema:name "Grifone di Giovanni fiammingo"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513045 a schema:Person;
+    schema:name "Fiammingo, Gherardo (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513047 a schema:Person;
+    schema:name "Gent, Pieter van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513049 a schema:Person;
+    schema:name "Karcher, Luigi (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513050 a schema:Person;
+    schema:name "Castello, Egidio da"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513052 a schema:Person;
+    schema:name "Bervet, Pietro"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513057 a schema:Person;
+    schema:name "Moreels, Hendryck"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513241 a schema:Person;
+    schema:name "Banck, Abraham Engelsz. van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513245 a schema:Person;
+    schema:name "Banck, Abraham van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513246 a schema:Person;
+    schema:name "Banck, Engel van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513247 a schema:Person;
+    schema:name "Beesbrugge, Tobias van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513248 a schema:Person;
+    schema:name "Bekourt, Jean"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513251 a schema:Person;
+    schema:name "Bogaert, Gyelis van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513252 a schema:Person;
+    schema:name "Braeckel, Philips van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513254 a schema:Person;
+    schema:name "Cleef, Jacob Jacobsz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513468 a schema:Person;
+    schema:name "Goeman, Albert"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513549 a schema:Person;
+    schema:name "Koenebier, Lowys"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513550 a schema:Person;
+    schema:name "Coppenolle, Daniël Cornelisz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513551 a schema:Person;
+    schema:name "Coppenolle, Joost van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513553 a schema:Person;
+    schema:name "Coppens, Cornelis (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513555 a schema:Person;
+    schema:name "Coppens, Samuel Cornelisz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513556 a schema:Person;
+    schema:name "Coppenol, Pieter van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513559 a schema:Person;
+    schema:name "Coye, David van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513562 a schema:Person;
+    schema:name "Coye, Jeremias van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513566 a schema:Person;
+    schema:name "Cracht, Abraham van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513568 a schema:Person;
+    schema:name "Cracht, Pieter Abrahamsz. de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513569 a schema:Person;
+    schema:name "Crits, Jan de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513571 a schema:Person;
+    schema:name "Daele, Josias Segersz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513573 a schema:Person;
+    schema:name "Dammelaer, Jacob Joosten"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513574 a schema:Person;
+    schema:name "Davidsz., David"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513575 a schema:Person;
+    schema:name "Denysz., Pieter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513576 a schema:Person;
+    schema:name "Dircx, Ysbrandt"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513577 a schema:Person;
+    schema:name "Eerde, Jan Engelsz. van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513578 a schema:Person;
+    schema:name "Froons, Pauwels"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513580 a schema:Person;
+    schema:name "Gardenijs, Stephanus Willemsz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513583 a schema:Person;
+    schema:name "Goossensom, Adriaen"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513586 a schema:Person;
+    schema:name "Goossensz., Joost"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513588 a schema:Person;
+    schema:name "Grondelingh, Jacques Joosten"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513589 a schema:Person;
+    schema:name "Grondelingh, Joost"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513600 a schema:Person;
+    schema:name "Sheldon, Ralph"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513605 a schema:Person;
+    schema:name "Doort, Peter van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513614 a schema:Person;
+    schema:name "Graeff, Hendrick Jansz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513615 a schema:Person;
+    schema:name "Groote, Mattheus Engelsz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513617 a schema:Person;
+    schema:name "Gucht, Bartholomeus van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513618 a schema:Person;
+    schema:name "Gucht, Pieter van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513620 a schema:Person;
+    schema:name "Henricx, Moises"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513627 a schema:Person;
+    schema:name "Hoboken, Jan Harmansz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513629 a schema:Person;
+    schema:name "Holandt, Elias Maertensz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513636 a schema:Person;
+    schema:name "Holandt, Pieter Maertensz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513637 a schema:Person;
+    schema:name "Hoochbosch, Abraham van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513639 a schema:Person;
+    schema:name "Hoorn, Christiaen Danielsz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513642 a schema:Person;
+    schema:name "Joosten, Marcus"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513643 a schema:Person;
+    schema:name "Joosten, Pieter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513645 a schema:Person;
+    schema:name "Joppen, Huybrecht"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513648 a schema:Person;
+    schema:name "Lepelaer, Jan Frans de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513650 a schema:Person;
+    schema:name "Milaen, Bartholomeus de (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513651 a schema:Person;
+    schema:name "Moten, Jan van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513652 a schema:Person;
+    schema:name "Moten, Adriaen van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513654 a schema:Person;
+    schema:name "Nachtegael, Peeter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513655 a schema:Person;
+    schema:name "Nachtegael, Willem Pietersz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513656 a schema:Person;
+    schema:name "Onclaer, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513657 a schema:Person;
+    schema:name "Paton, Joris"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513661 a schema:Person;
+    schema:name "Pottere, Joris de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513662 a schema:Person;
+    schema:name "Putte, Jacques van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513663 a schema:Person;
+    schema:name "Putten, Jan Jansz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513664 a schema:Person;
+    schema:name "Raedt, Jan de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513665 a schema:Person;
+    schema:name "Rufelaer, Johan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513666 a schema:Person;
+    schema:name "Schaep, David"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513669 a schema:Person;
+    schema:name "Schaep, Joost Pietersz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513670 a schema:Person;
+    schema:name "Schaep, Pieter Davidsz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513671 a schema:Person;
+    schema:name "Schaep, Tobias (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513672 a schema:Person;
+    schema:name "Schepper, Abraham Gillisz. de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513673 a schema:Person;
+    schema:name "Schepper, Franchoys de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513674 a schema:Person;
+    schema:name "Schepper, Gillis de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513675 a schema:Person;
+    schema:name "Scheybels, Gillis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513676 a schema:Person;
+    schema:name "Schuyr, Lowys Jacobsz. van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513677 a schema:Person;
+    schema:name "Zee, Balthasar van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513678 a schema:Person;
+    schema:name "Zee, Dominicus van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513679 a schema:Person;
+    schema:name "Simays, Dirck"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513681 a schema:Person;
+    schema:name "Smit, Abraham Jansz. de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513682 a schema:Person;
+    schema:name "Spiere, Richard van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513684 a schema:Person;
+    schema:name "Steene, Hans van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513685 a schema:Person;
+    schema:name "Straten, Jan van der (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513687 a schema:Person;
+    schema:name "Utens, Maerten"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513688 a schema:Person;
+    schema:name "Vechte, Joost Lievensz. van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513692 a schema:Person;
+    schema:name "Vechte, Lieven van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513694 a schema:Person;
+    schema:name "Verseyl, Feytje"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513695 a schema:Person;
+    schema:name "Vos, Bastiaen Mathijsz. de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513696 a schema:Person;
+    schema:name "Vreeckum, Laurens Jansz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513698 a schema:Person;
+    schema:name "Vriendt, François de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513699 a schema:Person;
+    schema:name "Vriendt, Frans de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513700 a schema:Person;
+    schema:name "Vroede, Augustijn de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513701 a schema:Person;
+    schema:name "Vyst, Jan van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513702 a schema:Person;
+    schema:name "Vyver, Jasper van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513703 a schema:Person;
+    schema:name "Walraedt, Joost Joosten"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513704 a schema:Person;
+    schema:name "Wannemaker, Abraham Lievens de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513705 a schema:Person;
+    schema:name "Wee, Pieter van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513706 a schema:Person;
+    schema:name "Weege, Joost van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513707 a schema:Person;
+    schema:name "Weeldige, Peeter de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513708 a schema:Person;
+    schema:name "Weghe, Steven Jansz. van  de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513709 a schema:Person;
+    schema:name "Wolf, Hans de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513710 a schema:Person;
+    schema:name "Woutersz, Anthony"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513711 a schema:Person;
+    schema:name "Wouters, Jannetje Lourysdr."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513715 a schema:Person;
+    schema:name "Gucht, Jacobus van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513733 a schema:Person;
+    schema:name "Ansis, Adriaen"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513735 a schema:Person;
+    schema:name "Baert, Jacobus"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513736 a schema:Person;
+    schema:name "Baert, Johannes Alexander"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513737 a schema:Person;
+    schema:name "Baert, Pieter Jansz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513738 a schema:Person;
+    schema:name "Braems, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513739 a schema:Person;
+    schema:name "Broek, Jasper Jansz. van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513741 a schema:Person;
+    schema:name "Brugge, Pieter van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513743 a schema:Person;
+    schema:name "Cauwenbergh, Jan Michielsz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513744 a schema:Person;
+    schema:name "Cauwenburch, Michiel Jansz. van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513745 a schema:Person;
+    schema:name "Kittevilder, Jacobus"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513746 a schema:Person;
+    schema:name "Clerq, Frans de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513750 a schema:Person;
+    schema:name "Hauterkens, Michiel"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513752 a schema:Person;
+    schema:name "Hecke, Pieter van den (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513753 a schema:Person;
+    schema:name "Hosse, Gerardt"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513755 a schema:Person;
+    schema:name "Houvast, David"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513758 a schema:Person;
+    schema:name "Verren, Jan van (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513759 a schema:Person;
+    schema:name "Verren, Frans Willem van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513760 a schema:Person;
+    schema:name "Huysman, Gielis Cornelisz."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513761 a schema:Person;
+    schema:name "Jansz., Hector"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513763 a schema:Person;
+    schema:name "Mol, Franchoys de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513765 a schema:Person;
+    schema:name "Plancke, Jan van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513770 a schema:Person;
+    schema:name "Reghelbrugge, Carel Joost"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513771 a schema:Person;
+    schema:name "Roelandt, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513773 a schema:Person;
+    schema:name "Ryke, Jacob de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513776 a schema:Person;
+    schema:name "Sandersz., Adriaen"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513777 a schema:Person;
+    schema:name "Schuer, Pieter de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513779 a schema:Person;
+    schema:name "Tavernier, Charles de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513780 a schema:Person;
+    schema:name "Thonisz., Cornelis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513786 a schema:Person;
+    schema:name "Thonisz., Thonis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513787 a schema:Person;
+    schema:name "Verbanck, Joost"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513789 a schema:Person;
+    schema:name "Willebeeck, Jillis van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513792 a schema:Person;
+    schema:name "Wouters, Johannes Laurens"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513794 a schema:Person;
+    schema:name "Wymes, Joost de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513808 a schema:Person;
+    schema:name "Banck, Laurens van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513820 a schema:Person;
+    schema:name "Heyst, Eberhard van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513838 a schema:Person;
+    schema:name "Mostinck, Jan (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513867 a schema:Person;
+    schema:name "Backere, Ariaen de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513868 a schema:Person;
+    schema:name "Hercelin, Ferrant"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513869 a schema:Person;
+    schema:name "Hercelin, Peter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513870 a schema:Person;
+    schema:name "Doorne, Gerard"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513893 a schema:Person;
+    schema:name "Bosch, Jan Baptist van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513898 a schema:Person;
+    schema:name "Bloyart, Colart"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513901 a schema:Person;
+    schema:name "Capars, Jehan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:513902 a schema:Person;
+    schema:name "Dary, Robert"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514012 a schema:Person;
+    schema:name "Paulussen, Peter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514023 a schema:Person;
+    schema:name "Mondekens, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514346 a schema:Person;
+    schema:name "Kips, Arnold"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514869 a schema:Person;
+    schema:name "Blommaert, Joris (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514871 a schema:Person;
+    schema:name "Blommaert, Jacob"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514875 a schema:Person;
+    schema:name "Clerck, Rochus de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514876 a schema:Person;
+    schema:name "Weimes, Arend van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514879 a schema:Person;
+    schema:name "Holbrughe, Lieven van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514880 a schema:Person;
+    schema:name "DeCritz, Baudewin"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514882 a schema:Person;
+    schema:name "Driessche, Tobias van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514883 a schema:Person;
+    schema:name "Brugge, Paschier van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514887 a schema:Person;
+    schema:name "Mollier, Joos de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514888 a schema:Person;
+    schema:name "Keluneicz, Christof"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514889 a schema:Person;
+    schema:name "Stuerbaut, Martin"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514893 a schema:Person;
+    schema:name "Robbyns, Philippe"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514907 a schema:Person;
+    schema:name "Kerchove, Joos van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514909 a schema:Person;
+    schema:name "Plancken, Raphaël van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514913 a schema:Person;
+    schema:name "Plancken, Ghileyn van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514924 a schema:Person;
+    schema:name "Plancken, Loys van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514927 a schema:Person;
+    schema:name "Jans, Jean (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514933 a schema:Person;
+    schema:name "Blommaert, Joris (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514934 a schema:Person;
+    schema:name "Blommaert, Jan (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514942 a schema:Person;
+    schema:name "Jans, Jean (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514948 a schema:Person;
+    schema:name "Kerchove, Anton van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514950 a schema:Person;
+    schema:name "Kerchove, Pasquir van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514953 a schema:Person;
+    schema:name "Kerchove, Andries van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514957 a schema:Person;
+    schema:name "Kerchove, Gilles van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514959 a schema:Person;
+    schema:name "Kerchove, Frans van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514963 a schema:Person;
+    schema:name "Kerchove, Jan van den (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514967 a schema:Person;
+    schema:name "Kerchove, Jan van den (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514969 a schema:Person;
+    schema:name "Kerchove, Jan van den (III)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514971 a schema:Person;
+    schema:name "Kerchove, Jacob van den (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514973 a schema:Person;
+    schema:name "Kerchove, Peter van der (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514975 a schema:Person;
+    schema:name "Kerchove, Peter van dern (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514981 a schema:Person;
+    schema:name "Kerchove, Joris van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514987 a schema:Person;
+    schema:name "Cardon, Frédéric"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514988 a schema:Person;
+    schema:name "Stichelen, Frans van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514989 a schema:Person;
+    schema:name "Simoens, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514991 a schema:Person;
+    schema:name "Smet, Leonaert de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:514993 a schema:Person;
+    schema:name "Neusse, Adriaen"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:515007 a schema:Person;
+    schema:name "Stichele, Jan van der (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:515015 a schema:Person;
+    schema:name "Sweerts, Melchior"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:515043 a schema:Person;
+    schema:name "Moor, Jan de (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:515276 a schema:Person;
+    schema:name "Boxelaer, Peter van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:515466 a schema:Person;
+    schema:name "Uxelles, Guillermo d'"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:515786 a schema:Person;
+    schema:name "Houtman, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:516470 a schema:Person;
+    schema:name "Verren, Pieter van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:516623 a schema:Person;
+    schema:name "Aa, Adriaen van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:516866 a schema:Person;
+    schema:name "Adams, Igshaan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:517029 a schema:Person;
+    schema:name "Jehan di Bruggia"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:517033 a schema:Person;
+    schema:name "Valentino di Raz"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:6495 a schema:Person;
+    schema:name "Benjamin, Hilda M."@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:131500 a schema:Person;
+    schema:name "Jean, Julien"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:132862 a schema:Person;
+    schema:name "Baert, Alexander (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:251921 a schema:Person;
+    schema:name "Puit, Julius de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:337133 a schema:Person;
+    schema:name "Vermillion, Jan-Baptist"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:342429 a schema:Person;
+    schema:name "Fabri van Aalst, Peter"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:342430 a schema:Person;
+    schema:name "Aelst van Edingen, Pieter van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:360030 a schema:Person;
+    schema:name "Sheldon, William"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:361291 a schema:Person;
+    schema:name "Raedt, Willem Andriesz. de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:115033 a schema:Person;
+    schema:name "Aben-Kreupeling, Sonja"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:230467 a schema:Person;
+    schema:name "Schidlo-Riedl, Johanna"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:36787 a schema:Person;
+    schema:name "Hecke, Peter van den (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:36929 a schema:Person;
+    schema:name "Heesen, Riek"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426227 a schema:Person;
+    schema:name "Geubels, Frans"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426229 a schema:Person;
+    schema:name "Geubels, Jacob (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426231 a schema:Person;
+    schema:name "Geubels, Jacob (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426254 a schema:Person;
+    schema:name "Driessche, Andries van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426307 a schema:Person;
+    schema:name "Blommaert, Adriaan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426348 a schema:Person;
+    schema:name "Leyniers, Daniël (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426352 a schema:Person;
+    schema:name "Leyniers, Everaert (III)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426355 a schema:Person;
+    schema:name "Raes, Jan (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426364 a schema:Person;
+    schema:name "Hecke, Frans van den (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426369 a schema:Person;
+    schema:name "Hecke, Jan François van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426370 a schema:Person;
+    schema:name "Hecke, Anton van den"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426371 a schema:Person;
+    schema:name "Mattens, Cornelis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426372 a schema:Person;
+    schema:name "Mattens, Hendrik"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426373 a schema:Person;
+    schema:name "Mattens, Jan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426395 a schema:Person;
+    schema:name "Orley, Michel van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426474 a schema:Person;
+    schema:name "Tiegen, Jan van (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426634 a schema:Person;
+    schema:name "Leefdael, Guilliam van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426649 a schema:Person;
+    schema:name "Cordijs, Jacques (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426658 a schema:Person;
+    schema:name "Cordijs, Jacques (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426661 a schema:Person;
+    schema:name "Foppens, Hans"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426665 a schema:Person;
+    schema:name "Brugghen, Koenraad van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426666 a schema:Person;
+    schema:name "Brugghen, Jan van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426670 a schema:Person;
+    schema:name "Bos, Michiel de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426674 a schema:Person;
+    schema:name "Auwercx, Albert"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426886 a schema:Person;
+    schema:name "Abbeloos, Daniël"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426888 a schema:Person;
+    schema:name "Aerts, Nicasius (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426890 a schema:Person;
+    schema:name "Aerts, Nicasius (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:426892 a schema:Person;
+    schema:name "Aerts, Jan (1629)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:427003 a schema:Person;
+    schema:name "Strecken, Geraert van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:427004 a schema:Person;
+    schema:name "Wauters, Michiel"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:427006 a schema:Person;
+    schema:name "Vos, Marcus de (1630)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:427059 a schema:Person;
+    schema:name "Zeunen, Jacob van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:427171 a schema:Person;
+    schema:name "Peemans, Gerard"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:427172 a schema:Person;
+    schema:name "Poyntz, Thomas"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:427177 a schema:Person;
+    schema:name "Reymbouts, Martin (III)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:427184 a schema:Person;
+    schema:name "Reymbouts, Martin (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:427187 a schema:Person;
+    schema:name "Reymbouts, Martin (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:427348 a schema:Person;
+    schema:name "Hyckes, Richard"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:427349 a schema:Person;
+    schema:name "Sheldon, Richard"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:427373 a schema:Person;
+    schema:name "Ronde, Cornelis de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:428085 a schema:Person;
+    schema:name "Jacopsz., Jacob (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:428922 a schema:Person;
+    schema:name "Pannemaker, Peter de (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:43185 a schema:Person;
+    schema:name "Kaal, Neeltje"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:462037 a schema:Person;
+    schema:name "Witte, Peter Elias de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:463968 a schema:Person;
+    schema:name "Vijvere, Guilliam van de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:464403 a schema:Person;
+    schema:name "Reydams, Jakob Ignaz"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:464542 a schema:Person;
+    schema:name "Alsloot, Denijs van (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:464636 a schema:Person;
+    schema:name "Vervoet, Jean"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:467717 a schema:Person;
+    schema:name "Rost, Jan (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:469317 a schema:Person;
+    schema:name "Eichen, Berent van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:469359 a schema:Person;
+    schema:name "Moor, Cesar de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:469361 a schema:Person;
+    schema:name "Moor, Alexander de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:469362 a schema:Person;
+    schema:name "Moor, Francis de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:469363 a schema:Person;
+    schema:name "Lambrechts, Arthur"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:471896 a schema:Person;
+    schema:name "Bombeck, Seger"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:472113 a schema:Person;
+    schema:name "Bernini, Leonardo"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:472321 a schema:Person;
+    schema:name "Ferloni, Pietro"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:472642 a schema:Person;
+    schema:name "Pirot, Andreas"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:472752 a schema:Person;
+    schema:name "Behagle, Philippe (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:472757 a schema:Person;
+    schema:name "Behagle, Philippe (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:474146 a schema:Person;
+    schema:name "Thisius, Leonard Jacob"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:475031 a schema:Person;
+    schema:name "Buning, Lizzy"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:475103 a schema:Person;
+    schema:name "Jacopsz, Jacop"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:475108 a schema:Person;
+    schema:name "Jacopsz, Jan (tapestry weaver)"@en, "Jacopsz, Jan (wandtapijtwever)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:475110 a schema:Person;
+    schema:name "Jan, Blanck"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:475112 a schema:Person;
+    schema:name "Jansz, Huybrecht"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:475117 a schema:Person;
+    schema:name "Jansz, Pouwels"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:475122 a schema:Person;
+    schema:name "Jan (tapestry weaver)"@en, "Jan (wandtapijtwever)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:475124 a schema:Person;
+    schema:name "Beterknaep, Joest Pietersz"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:475125 a schema:Person;
+    schema:name "Jansz, Gielis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:475126 a schema:Person;
+    schema:name "Gillisz, Willem"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:55105 a schema:Person;
+    schema:name "Melis, Dorien"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:55172 a schema:Person;
+    schema:name "Memelink, Hans"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:6103 a schema:Person;
+    schema:name "Beks, Elma"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:62563 a schema:Person;
+    schema:name "Pennings, Willy"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:79357 a schema:Person;
+    schema:name "Vanderbank, Mozes"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:79679 a schema:Person;
+    schema:name "Veenstra-Verhoeven, Ineke"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+artists:89459 a schema:Person;
+    schema:name "Jansen, Maggy"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q18516737> a schema:Person;
+    schema:name "Gucht, Maximiliaan van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q5806045> a schema:Person;
+    schema:name "Hilleström, Pehr"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q1656517> a schema:Person;
+    schema:name "Kerkovius, Ida"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q21646550> a schema:Person;
+    schema:name "Reydams, Hendrik (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q21637975> a schema:Person;
+    schema:name "Lefebvre, Pierre"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q21637905> a schema:Person;
+    schema:name "Janssens, Charles"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q20737956> a schema:Person;
+    schema:name "Loon, Johan van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q14519603> a schema:Person;
+    schema:name "Martinali, Willi"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q23903334> a schema:Person;
+    schema:name "Schilling, Henk (1928)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q6167534> a schema:Person;
+    schema:name "Pannemaker, Willem de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q12747855> a schema:Person;
+    schema:name "Vos, Judocus de"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q27032273> a schema:Person;
+    schema:name "Haanstra, Johan"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q29559633> a schema:Person;
+    schema:name "Januszewski, Gertrud"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q27180878> a schema:Person;
+    schema:name "Poyntz, Francis"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q2125838> a schema:Person;
+    schema:name "Constante, Lena"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q16269239> a schema:Person;
+    schema:name "Mercier, Pierre"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q4634245> a schema:Person;
+    schema:name "Spiering, François"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q697839> a schema:Person;
+    schema:name "Gütersloh, Albert Paris"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q41310813> a schema:Person;
+    schema:name "Hartong, Marianne"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q18508602> a schema:Person;
+    schema:name "Cozette, Pierre François"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q440369> a schema:Person;
+    schema:name "Denis, Maurice"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q14519490> a schema:Person;
+    schema:name "Fruytier, Wil"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q20972296> a schema:Person;
+    schema:name "Herzeele, Joost van (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q27507453> a schema:Person;
+    schema:name "Baert en soonen, Weduwe Alexander"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q21645764> a schema:Person;
+    schema:name "Leyniers, Urbanus"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q21645760> a schema:Person;
+    schema:name "Leyniers, Daniël (III)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q20972320> a schema:Person;
+    schema:name "Leyniers, Jan (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q21820564> a schema:Person;
+    schema:name "Raes, Jan (II)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q27507459> a schema:Person;
+    schema:name "Hecke, Frans van den (I)"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q2055720> a schema:Person;
+    schema:name "Grenier, Pasquier"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q20972316> a schema:Person;
+    schema:name "Leefdael, Jan van"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.
+<http://www.wikidata.org/entity/Q21577207> a schema:Person;
+    schema:name "Biest, Hans van der"@nl;
+    schema:occupation "tapijtkunstenaar"@nl.

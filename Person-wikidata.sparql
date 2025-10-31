@@ -1,0 +1,29 @@
+#Cats
+# SELECT distinct ?item ?itemLabel
+CONSTRUCT {
+  ?item schema:name ?itemLabel;
+        a schema:Person;
+        schema:hasOccupation ?occLabel;
+        schema:temporal ?date;
+        schema:sameAs ?id;
+        schema:spatial ?country;
+        .
+  ?country a schema:Place;
+             schema:name ?countryLabel;
+}
+WHERE
+{
+  ?item wdt:P106 ?occ;
+        ?p_country ?country;
+        ?external_id ?id
+  OPTIONAL {
+       ?item ?p_date ?date.
+    }
+  ?country wdt:P1269*|wdt:P361* wd:Q476033
+  FILTER(?occ in (wd:Q437512, wd:Q21117684, wd:Q10694573))
+  FILTER(?p_date in (wdt:P1317, wdt:P569, wdt:P2031, wdt:P2032))
+  FILTER(?external_id in (wdt:P650))
+#   FILTER(?country in (wd:Q31, wd:Q1031430))
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "nl,en". } # Helps get the label in your language, if not, then default for all languages, then en language
+}
+# Invoke-WebRequest -Uri "https://query.wikidata.org/sparql?query=%23Cats%0A%23%20SELECT%20distinct%20%3Fitem%20%3FitemLabel%0ACONSTRUCT%20%7B%0A%20%20%3Fitem%20schema%3Aname%20%3FitemLabel%3B%0A%20%20%20%20%20%20%20%20a%20schema%3APerson%3B%0A%20%20%20%20%20%20%20%20schema%3AhasOccupation%20%3FoccLabel%3B%0A%20%20%20%20%20%20%20%20schema%3Atemporal%20%3Fdate%3B%0A%20%20%20%20%20%20%20%20schema%3AsameAs%20%3Fid%3B%0A%20%20%20%20%20%20%20%20schema%3Aspatial%20%3Fcountry%3B%0A%20%20%20%20%20%20%20%20.%0A%20%20%3Fcountry%20a%20schema%3APlace%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aname%20%3FcountryLabel%3B%0A%7D%0AWHERE%0A%7B%0A%20%20%3Fitem%20wdt%3AP106%20%3Focc%3B%0A%20%20%20%20%20%20%20%20%3Fp_country%20%3Fcountry%3B%0A%20%20%20%20%20%20%20%20%3Fexternal_id%20%3Fid%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%3Fitem%20%3Fp_date%20%3Fdate.%0A%20%20%20%20%7D%0A%20%20%3Fcountry%20wdt%3AP1269*%7Cwdt%3AP361*%20wd%3AQ476033%0A%20%20FILTER(%3Focc%20in%20(wd%3AQ437512%2C%20wd%3AQ21117684%2C%20wd%3AQ10694573))%0A%20%20FILTER(%3Fp_date%20in%20(wdt%3AP1317%2C%20wdt%3AP569))%0A%20%20FILTER(%3Fexternal_id%20in%20(wdt%3AP650))%0A%23%20%20%20FILTER(%3Fcountry%20in%20(wd%3AQ31%2C%20wd%3AQ1031430))%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%2Cen%22.%20%7D%20%23%20Helps%20get%20the%20label%20in%20your%20language%2C%20if%20not%2C%20then%20default%20for%20all%20languages%2C%20then%20en%20language%0A%7D" -Headers @{ "Accept" = "text/turtle" } -OutFile p.ttl 

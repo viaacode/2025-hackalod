@@ -1,0 +1,38 @@
+prefix schema: <https://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+# select *
+construct {
+  ?s a schema:Person;
+    schema:name ?label;
+    schema:occupation ?occ;
+    schema:spatial ?place_wID
+}
+where {
+  values ?occ {
+    "tapijtkunstenaar"@nl
+  }
+  ?art schema:additionalType ?occ;
+    schema:name ?label;
+  .
+  optional {
+    ?art rdfs:seeAlso ?wID;
+    filter(strstarts(str(?wID), 'http://www.wikidata.org/entity/'))
+  }
+  bind(
+    if(
+      bound(?wID),
+      iri(?wID),
+      ?art
+    )
+    as ?s)
+  optional {
+    ?art schema:workLocation/schema:workLocation ?loc
+    service <https://api.rkd.triply.cc/datasets/rkd/RKD-Knowledge-Graph/services/SPARQL/sparql>{
+      ?loc skos:exactMatch ?place_wID
+      filter(strstarts(str(?place_wID), 'http://www.wikidata.org/entity/'))
+    }
+  }
+
+
+}
