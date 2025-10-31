@@ -1,0 +1,46 @@
+prefix schema: <https://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+# select distinct ?s
+construct {
+  ?s a schema:CreativeWork;
+    schema:name ?sname;
+    schema:spatial ?place_wid;
+    schema:material ?material;
+    schema:creator ?sperson;
+    .
+  ?place_wid a schema:Place.
+  ?material a schema:Material;
+    schema:name ?materialLabel
+}
+where {
+  {
+    values ?type {
+      <https://data.rkd.nl/thesaurus/66733>
+    }
+    ?s <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ?type;
+      rdfs:label ?sname;
+      <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of> ?material.
+    ?material skos:prefLabel ?materialLabel.
+    filter(lang(?materialLabel)='nl')
+    optional{
+      ?s <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>/<http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> ?splace.
+      ?splace skos:exactMatch ?place_wid.
+      filter(strstarts(str(?place_wid), 'https://www.wikidata.org/entity/'))
+    }
+  }
+  union
+  {
+    values ?material {
+      <https://data.rkd.nl/thesaurus/61784>
+    }
+    ?s <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of> ?material;
+      rdfs:label ?sname;
+    optional{
+      ?s <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>/<http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> ?splace.
+      ?splace skos:exactMatch ?place_wid.
+      filter(strstarts(str(?place_wid), 'https://www.wikidata.org/entity/'))
+    }
+  }
+}
