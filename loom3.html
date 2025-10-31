@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SVG Weaving Loom — hover info</title>
+    <style>
+        body {
+            font-family: system-ui, Segoe UI, Roboto, Helvetica, Arial;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: #0f172a;
+            color: #e6eef8;
+            margin: 0
+        }
+
+        .card {
+            background: #0b1220;
+            padding: 18px;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(2, 6, 23, 0.6);
+            width: 936px;
+            position: relative
+        }
+
+        h1 {
+            font-size: 16px;
+            margin: 0 0 10px
+        }
+
+        .info {
+            font-size: 13px;
+            color: #9fb0d1;
+            margin-bottom: 12px
+        }
+
+        .loom-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        .input {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            height: 420px;
+        }
+
+        .input input {
+            background: #1e293b;
+            border: 1px solid #334155;
+            color: #e6eef8;
+            padding: 10px 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            width: 200px;
+            outline: none;
+        }
+
+        .input input:focus {
+            border-color: #60a5fa;
+            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.4);
+        }
+
+        .loom {
+            display: block;
+            width: 70%;
+            height: auto;
+            background: linear-gradient(180deg, #dde9ff 0%, #9bd3ff 100%);
+            border-radius: 12px;
+            padding: 12px
+        }
+
+        svg {
+            width: 100%;
+            height: 420px;
+            overflow: visible
+        }
+
+        .warp {
+            stroke: #7fb6ff;
+            /* stroke-opacity: 0.9; */
+            stroke-width: 15;
+            stroke-linecap: round;
+            cursor: pointer
+        }
+
+        .warp:hover {
+            stroke: #ff0000;
+            stroke-width: 18
+        }
+
+        .weft-seg {
+            stroke: #000000;
+            stroke-width: 15;
+            stroke-linecap: round;
+            transform-origin: left center;
+            transform: scaleX(0);
+            transition: transform 0.8s ease-out
+        }
+
+        .person {
+            stroke: #053a00;
+        }
+        .place {
+            stroke: #0d003a;
+        }
+        .material {
+            stroke: #3a0300;
+        }
+        .product {
+            stroke: #3a0027;
+        }      
+
+        .active {
+            stroke: #ff0000;
+            stroke-width: 12
+        }
+
+        .weft-seg.visible {
+            transform: scaleX(1)
+        }
+
+        .tooltip {
+            position: absolute;
+            pointer-events: none;
+            background: rgba(20, 30, 50, 0.95);
+            color: #e6eef8;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+            font-size: 13px;
+            display: none;
+            max-width: 220px;
+            z-index: 1000;
+        }
+
+        .tooltip h4 {
+            margin: 0 0 6px;
+            font-size: 14px
+        }
+
+        .tooltip p {
+            margin: 0;
+            font-size: 12px;
+            color: #cfe8ff
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h1>SVG Weaving Loom — hover info on intersections</h1>
+        <div class="info">Hover over an on-top segment to see information about that intersection.</div>
+        <div class="loom-container">
+            <div class="loom">
+                <svg id="loom" viewBox="0 0 900 420" preserveAspectRatio="xMidYMid meet">
+                    <g id="underWefts"></g>
+                    <g id="warps"></g>
+                    <g id="overWefts"></g>
+                </svg>
+            </div>
+            <div class="input">
+                <input type="text" id="search" placeholder="Type here..." />
+                <li id="results">
+                </li>
+            </div>
+        </div>
+
+        <div id="tooltip" class="tooltip">
+            <h4>Title</h4>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+    <script>
+        (function () {
+            const WIDTH = 900, HEIGHT = 420, NUM_WARPS = 4, NUM_WEFT = 10;
+            const marginX = 60, marginY = 40;
+            const warpSpacing = (WIDTH - marginX * 2) / (NUM_WARPS - 1);
+            const weftSpacing = (HEIGHT - marginY * 2) / (NUM_WEFT - 1);
+
+            const warpsG = document.getElementById('warps');
+            const underG = document.getElementById('underWefts');
+            const overG = document.getElementById('overWefts');
+            const tooltip = document.getElementById('tooltip');
+            const searchInput = document.getElementById('search');
+            const resultsList = document.getElementById('results');
+
+            const warpPositions = [];
+            const warpWires = [
+                {
+                    "name": "Personen",
+                    "class": "person",
+                    "x-pos": marginX + 0 * warpSpacing,
+                },
+                {
+                    "name": "Plaatsen",
+                    "class": "place",
+                    "x-pos": marginX + 1 * warpSpacing
+                },
+                {
+                    "name": "Materiaal",
+                    "class": "material", 
+                    "x-pos": marginX + 2 * warpSpacing
+                },
+                {
+                    "name": "Producten",
+                    "class": "product", 
+                    "x-pos": marginX + 3 * warpSpacing
+                }
+            ]
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase();
+                resultsList.innerHTML = '';
+                if (query.length === 0) return;
+                warpWires.forEach(warpWire => {
+                    if (warpWire.name.toLowerCase().includes(query)) {
+                        const li = document.createElement('li');
+                        li.textContent = warpWire.name;
+                        resultsList.appendChild(li);
+                    }
+                });
+            });
+
+            // for (let i = 0; i < NUM_WARPS; i++) {
+            //     const x = marginX + i * warpSpacing;
+                // warpPositions.push(x);
+                // const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                // line.setAttribute('x1', x);
+                // line.setAttribute('y1', 20);
+                // line.setAttribute('x2', x);
+                // line.setAttribute('y2', HEIGHT - 20);
+                // line.setAttribute('class', 'warp');
+                // line.addEventListener('click', () => weaveNextLine());
+                // warpsG.appendChild(line);
+            // }
+            for (let warpWire of warpWires) {
+                warpPositions.push(warpWire["x-pos"]);
+                const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                line.setAttribute('x1', warpWire["x-pos"]);
+                line.setAttribute('y1', 20);
+                line.setAttribute('x2', warpWire["x-pos"]);
+                line.setAttribute('y2', HEIGHT - 20);
+                line.setAttribute('class', 'warp ' + warpWire["class"]);
+                line.addEventListener('click', () => weaveNextLine());
+                warpsG.appendChild(line);
+            }
+
+            let currentIndex = 0, animating = false;
+            
+            let allOverWeft = [];
+            function weaveNextLine() {
+                if (animating || currentIndex >= NUM_WEFT) return;
+                animating = true;
+                const y = marginY + currentIndex * weftSpacing;
+                const weftSegments = [];
+
+                // long under segment
+                const longSegment = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                longSegment.setAttribute('x1', warpPositions[0] - 15);
+                longSegment.setAttribute('x2', warpPositions[NUM_WARPS - 1] + 15);
+                longSegment.setAttribute('y1', y);
+                longSegment.setAttribute('y2', y);
+                longSegment.setAttribute('class', 'weft-seg under');
+                underG.appendChild(longSegment);
+                weftSegments.push(longSegment);
+
+                allOverWeft.forEach((seg, i) => seg.classList.remove("active"))
+                // small over segments
+                const overCount = Math.floor(Math.random() * 3) + 1;
+                for (let i = 0; i < overCount; i++) {
+                    const idx = Math.floor(Math.random() * (NUM_WARPS - 1));
+                    const seg = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    seg.setAttribute('x1', warpPositions[idx] - 5);
+                    seg.setAttribute('x2', warpPositions[idx] + 5);
+                    seg.setAttribute('y1', y);
+                    seg.setAttribute('y2', y);
+                    seg.setAttribute('class', 'weft-seg active over'); 
+                    seg.setAttribute('stroke', '#ff0000')
+                    overG.appendChild(seg);
+                    allOverWeft.push(seg)
+                    weftSegments.push(seg);
+
+                    // hover tooltip
+                    seg.addEventListener('mouseenter', (e) => {
+                        tooltip.style.display = 'block';
+                        tooltip.style.left = (e.pageX + 10) + 'px';
+                        tooltip.style.top = (e.pageY + 10) + 'px';
+                    });
+                    seg.addEventListener('mousemove', (e) => {
+                        tooltip.style.left = (e.pageX + 10) + 'px';
+                        tooltip.style.top = (e.pageY + 10) + 'px';
+                    });
+                    seg.addEventListener('mouseleave', () => {
+                        tooltip.style.display = 'none';
+                    });
+                }
+
+                // animate segments
+                weftSegments.forEach((seg, i) => setTimeout(() => seg.classList.add('visible'), i * 150));
+                setTimeout(() => { currentIndex++; animating = false; }, weftSegments.length * 150 + 800);
+            }
+        })();
+    </script>
+</body>
+
+</html>
