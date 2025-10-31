@@ -1,3 +1,4 @@
+@prefix schema: <https://schema.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sesame: <http://www.openrdf.org/schema/sesame#> .
@@ -31,7 +32,6 @@
 @prefix wds: <http://www.wikidata.org/entity/statement/> .
 @prefix wdv: <http://www.wikidata.org/value/> .
 @prefix wdref: <http://www.wikidata.org/reference/> .
-@prefix schema: <http://schema.org/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
@@ -41,23 +41,24 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix wikibaseqs: <http://wikiba.se/queryService#> .
 
+wd:Q85751507 schema:name "Jan Dermoyen"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1525-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "458461" ;
+	schema:spatial wd:Q1031430 .
+
+wd:Q1031430 a schema:Place ;
+	schema:name "Habsburgse Nederlanden"@nl .
+
+wd:Q85751507 schema:temporal "1540-01-01T00:00:00Z"^^xsd:dateTime .
+
 wd:Q122164919 schema:name "Jacob van Ostayen"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "textielkunstenaar"@nl ;
 	schema:temporal "1606-01-01T00:00:00Z"^^xsd:dateTime ;
 	schema:sameAs "61084" ;
 	schema:spatial wd:Q1031430 .
-
-wd:Q1031430 a schema:Place ;
-	schema:name "Habsburgse Nederlanden"@nl .
-
-wd:Q85751507 schema:name "Jan Dermoyen"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1525-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "458461" ;
-	schema:spatial wd:Q1031430 ;
-	schema:temporal "1540-01-01T00:00:00Z"^^xsd:dateTime .
 
 wd:Q4634245 schema:name "François Spierincx"@nl ;
 	a schema:Person ;
@@ -69,11 +70,12 @@ wd:Q4634245 schema:name "François Spierincx"@nl ;
 
 wd:Q12747855 schema:name "Judocus de Vos"@nl ;
 	a schema:Person ;
-	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1661-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:hasOccupation "wever"@nl ;
+	schema:temporal "1705-01-01T00:00:00Z"^^xsd:dateTime ;
 	schema:sameAs "263994" ;
 	schema:spatial wd:Q1031430 ;
-	schema:hasOccupation "wever"@nl .
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1661-01-01T00:00:00Z"^^xsd:dateTime , "1721-01-01T00:00:00Z"^^xsd:dateTime .
 
 wd:Q152384 schema:name "Joan Miró"@nl ;
 	a schema:Person ;
@@ -84,6 +86,8 @@ wd:Q152384 schema:name "Joan Miró"@nl ;
 
 wd:Q31 a schema:Place ;
 	schema:name "België"@nl .
+
+wd:Q152384 schema:temporal "1915-01-01T00:00:00Z"^^xsd:dateTime , "1983-01-01T00:00:00Z"^^xsd:dateTime .
 
 wd:Q548860 schema:name "Michel Seuphor"@nl ;
 	a schema:Person ;
@@ -128,6 +132,20 @@ wd:Q8062361 schema:name "Yvette Cauquil Prince"@nl ;
 	schema:sameAs "254402" ;
 	schema:spatial wd:Q31 .
 
+wd:Q21637127 schema:name "Jacques Bergmans"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "textielkunstenaar"@nl ;
+	schema:temporal "1891-11-09T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "7245" ;
+	schema:spatial wd:Q31 .
+
+wd:Q21396135 schema:name "Valentijn Van Uytvanck"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "textielkunstenaar"@nl ;
+	schema:temporal "1896-11-24T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "79327" ;
+	schema:spatial wd:Q31 .
+
 wd:Q21545531 schema:name "Veerle Rouquart"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "textielkunstenaar"@nl ;
@@ -142,11 +160,19 @@ wd:Q21545254 schema:name "Simone Reynders"@nl ;
 	schema:sameAs "99612" ;
 	schema:spatial wd:Q31 .
 
-wd:Q21637127 schema:name "Jacques Bergmans"@nl ;
+wd:Q22235884 schema:name "Jacques De Groote"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "textielkunstenaar"@nl ;
-	schema:temporal "1891-11-09T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "7245" ;
+	schema:temporal "1976-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "20639" ;
+	schema:spatial wd:Q31 ;
+	schema:temporal "1944-01-01T00:00:00Z"^^xsd:dateTime , "1970-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q21993773 schema:name "André Hupet"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1922-12-20T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "40679" ;
 	schema:spatial wd:Q31 .
 
 wd:Q22236079 schema:name "Marie-Rose Lannoy"@nl ;
@@ -157,25 +183,11 @@ wd:Q22236079 schema:name "Marie-Rose Lannoy"@nl ;
 	schema:spatial wd:Q31 ;
 	schema:temporal "2013-01-01T00:00:00Z"^^xsd:dateTime , "1933-01-01T00:00:00Z"^^xsd:dateTime .
 
-wd:Q21396135 schema:name "Valentijn Van Uytvanck"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "textielkunstenaar"@nl ;
-	schema:temporal "1896-11-24T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "79327" ;
-	schema:spatial wd:Q31 .
-
 wd:Q22237348 schema:name "Christine Steel"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "textielkunstenaar"@nl ;
 	schema:temporal "1945-01-01T00:00:00Z"^^xsd:dateTime ;
 	schema:sameAs "74785" ;
-	schema:spatial wd:Q31 .
-
-wd:Q21993773 schema:name "André Hupet"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1922-12-20T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "40679" ;
 	schema:spatial wd:Q31 .
 
 wd:Q25918204 schema:name "René Julien"@nl ;
@@ -213,21 +225,6 @@ wd:Q42186580 schema:name "Julien Bal"@nl ;
 	schema:sameAs "482822" ;
 	schema:spatial wd:Q31 .
 
-wd:Q22235884 schema:name "Jacques De Groote"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "textielkunstenaar"@nl ;
-	schema:temporal "1944-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "20639" ;
-	schema:spatial wd:Q31 .
-
-wd:Q21638003 schema:name "Lut Lenoir"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "textielkunstenaar"@nl ;
-	schema:temporal "1946-11-05T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "49379" ;
-	schema:spatial wd:Q31 ;
-	schema:temporal "1978-01-01T00:00:00Z"^^xsd:dateTime .
-
 wd:Q43266283 schema:name "Elisabeth de Saedeleer"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "textielkunstenaar"@nl ;
@@ -263,13 +260,6 @@ wd:Q106211776 schema:name "Marie-Thérèse Baeyens"@nl ;
 	schema:sameAs "3542" ;
 	schema:spatial wd:Q31 .
 
-wd:Q107076687 schema:name "Vera Vermeersch"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "textielkunstenaar"@nl ;
-	schema:temporal "1959-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "119190" ;
-	schema:spatial wd:Q31 .
-
 wd:Q107550011 schema:name "Klaas Rommelaere"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "textielkunstenaar"@nl ;
@@ -277,6 +267,13 @@ wd:Q107550011 schema:name "Klaas Rommelaere"@nl ;
 	schema:sameAs "496132" ;
 	schema:spatial wd:Q31 ;
 	schema:temporal "2023-01-01T00:00:00Z"^^xsd:dateTime , "1986-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q107076687 schema:name "Vera Vermeersch"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "textielkunstenaar"@nl ;
+	schema:temporal "1959-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "119190" ;
+	schema:spatial wd:Q31 .
 
 wd:Q110082768 schema:name "Jacobus Fernandus Adolphus Sémey"@nl ;
 	a schema:Person ;
@@ -307,22 +304,20 @@ wd:Q122936400 schema:name "Jan Hendrik Van de Werf"@nl ;
 	schema:sameAs "370614" ;
 	schema:spatial wd:Q31 .
 
+wd:Q21638003 schema:name "Lut Lenoir"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "textielkunstenaar"@nl ;
+	schema:temporal "1946-11-05T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "49379" ;
+	schema:spatial wd:Q31 ;
+	schema:temporal "1978-01-01T00:00:00Z"^^xsd:dateTime .
+
 wd:Q131933093 schema:name "Lisa Vlaemminck"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "textielkunstenaar"@nl ;
 	schema:temporal "1992-01-01T00:00:00Z"^^xsd:dateTime ;
 	schema:sameAs "507015" ;
 	schema:spatial wd:Q31 .
-
-wd:Q2157243 schema:name "Pieter van Edingen"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1450-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "342430" ;
-	schema:spatial wd:Q239 .
-
-wd:Q239 a schema:Place ;
-	schema:name "Brussel"@nl .
 
 wd:Q2863419 schema:name "Arnt van der Dussen"@nl ;
 	a schema:Person ;
@@ -331,11 +326,44 @@ wd:Q2863419 schema:name "Arnt van der Dussen"@nl ;
 	schema:sameAs "333110" ;
 	schema:spatial wd:Q239 .
 
+wd:Q239 a schema:Place ;
+	schema:name "Brussel"@nl .
+
+wd:Q2157243 schema:name "Pieter van Edingen"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1450-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "342430" ;
+	schema:spatial wd:Q239 .
+
 wd:Q3019112 schema:name "Pieter Wiegersma"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "textielkunstenaar"@nl ;
 	schema:temporal "1920-07-02T00:00:00Z"^^xsd:dateTime ;
 	schema:sameAs "84170" ;
+	schema:spatial wd:Q239 .
+
+wd:Q21820564 schema:name "Jan Raes II"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1602-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "426356" ;
+	schema:spatial wd:Q239 .
+
+wd:Q19288237 schema:name "Albert Auwercx"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1629-02-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "426674" ;
+	schema:spatial wd:Q239 ;
+	schema:hasOccupation "wever"@nl ;
+	schema:temporal "1600-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q19569853 schema:name "Willem Dermoyen"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1530-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "458462" ;
 	schema:spatial wd:Q239 .
 
 wd:Q20972296 schema:name "Joost van Herzeele"@nl ;
@@ -360,14 +388,15 @@ wd:Q20972320 schema:name "Jan Leyniers"@nl ;
 	schema:spatial wd:Q239 ;
 	schema:hasOccupation "wandtapijtwever"@nl .
 
-wd:Q19288237 schema:name "Albert Auwercx"@nl ;
+wd:Q12747855 schema:spatial wd:Q239 .
+
+wd:Q15874883 schema:name "Elsa Woutersen-van Doesburgh"@nl ;
 	a schema:Person ;
-	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1629-02-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "426674" ;
+	schema:hasOccupation "textielkunstenaar"@nl ;
+	schema:temporal "1875-12-07T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "23482" ;
 	schema:spatial wd:Q239 ;
-	schema:hasOccupation "wever"@nl ;
-	schema:temporal "1600-01-01T00:00:00Z"^^xsd:dateTime .
+	schema:temporal "1890-01-01T00:00:00Z"^^xsd:dateTime , "1957-01-01T00:00:00Z"^^xsd:dateTime .
 
 wd:Q21645760 schema:name "Daniël de Jonge Leyniers"@nl ;
 	a schema:Person ;
@@ -376,32 +405,13 @@ wd:Q21645760 schema:name "Daniël de Jonge Leyniers"@nl ;
 	schema:sameAs "426349" ;
 	schema:spatial wd:Q239 .
 
+wd:Q29420385 schema:spatial wd:Q239 .
+
 wd:Q21645764 schema:name "Urbanus Leyniers"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "wandtapijtwever"@nl ;
 	schema:temporal "1674-02-26T00:00:00Z"^^xsd:dateTime ;
 	schema:sameAs "426347" ;
-	schema:spatial wd:Q239 .
-
-wd:Q21646550 schema:name "Hendrik Reydams (II)"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1650-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "457554" ;
-	schema:spatial wd:Q239 .
-
-wd:Q21820564 schema:name "Jan Raes II"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1602-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "426356" ;
-	schema:spatial wd:Q239 .
-
-wd:Q15874883 schema:name "Elsa Woutersen-van Doesburgh"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "textielkunstenaar"@nl ;
-	schema:temporal "1875-12-07T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "23482" ;
 	schema:spatial wd:Q239 .
 
 wd:Q6167534 schema:name "Willem de Pannemaker"@nl ;
@@ -411,27 +421,24 @@ wd:Q6167534 schema:name "Willem de Pannemaker"@nl ;
 	schema:sameAs "263980" ;
 	schema:spatial wd:Q239 .
 
-wd:Q12747855 schema:spatial wd:Q239 .
-
-wd:Q29420385 schema:spatial wd:Q239 .
+wd:Q21646550 schema:name "Hendrik Reydams (II)"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1650-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "457554" ;
+	schema:spatial wd:Q239 .
 
 wd:Q120716265 schema:name "Emile Joseph Vandenhoute"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "textielkunstenaar"@nl ;
 	schema:temporal "1928-01-01T00:00:00Z"^^xsd:dateTime ;
 	schema:sameAs "493049" ;
-	schema:spatial wd:Q31 .
-
-wd:Q19569853 schema:name "Willem Dermoyen"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1530-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "458462" ;
-	schema:spatial wd:Q239 .
-
-wd:Q37518731 schema:spatial wd:Q239 .
+	schema:spatial wd:Q31 ;
+	schema:temporal "1990-01-01T00:00:00Z"^^xsd:dateTime .
 
 wd:Q42186580 schema:spatial wd:Q239 .
+
+wd:Q37518731 schema:spatial wd:Q239 .
 
 wd:Q52149187 schema:name "Everaert Leyniers"@nl ;
 	a schema:Person ;
@@ -440,11 +447,83 @@ wd:Q52149187 schema:name "Everaert Leyniers"@nl ;
 	schema:sameAs "426352" ;
 	schema:spatial wd:Q239 .
 
+wd:Q107649853 schema:name "Daniël Abbeloos"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1629-05-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "426886" ;
+	schema:spatial wd:Q239 .
+
 wd:Q75847742 schema:name "Pieter de Pannemaker"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1600-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:temporal "1532-01-01T00:00:00Z"^^xsd:dateTime ;
 	schema:sameAs "428922" ;
+	schema:spatial wd:Q239 ;
+	schema:temporal "1600-01-01T00:00:00Z"^^xsd:dateTime , "1517-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q85458599 schema:name "Jan Ghieteels"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1488-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "458480" ;
+	schema:spatial wd:Q239 ;
+	schema:temporal "1540-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q85751507 schema:spatial wd:Q239 .
+
+wd:Q85979470 schema:name "Peter van den Hecke"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1711-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "36787" ;
+	schema:spatial wd:Q239 ;
+	schema:temporal "1675-01-01T00:00:00Z"^^xsd:dateTime , "1752-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q86928623 schema:name "Willem van Leefdael"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1632-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "426634" ;
+	schema:spatial wd:Q239 .
+
+wd:Q87492651 schema:name "Jan Frans van den Hecke"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1640-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "426369" ;
+	schema:spatial wd:Q239 ;
+	schema:temporal "1702-01-01T00:00:00Z"^^xsd:dateTime , "1660-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q101192134 schema:name "Jan Mattens"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1613-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "426373" ;
+	schema:spatial wd:Q239 ;
+	schema:hasOccupation "textielkunstenaar"@nl , "wever"@nl .
+
+wd:Q88423626 schema:name "Jan de Kempeneer"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1556-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "458532" ;
+	schema:spatial wd:Q239 ;
+	schema:temporal "1540-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q111910474 schema:name "Frans Raes"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1650-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "458749" ;
+	schema:spatial wd:Q239 ;
+	schema:temporal "1625-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q110943676 schema:name "Corinne Toussein"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "textielkunstenaar"@nl ;
+	schema:temporal "1942-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "100357" ;
 	schema:spatial wd:Q239 .
 
 wd:Q76465631 schema:name "Willem de Kempeneer"@nl ;
@@ -461,59 +540,60 @@ wd:Q76575893 schema:name "Jan de Maecht"@nl ;
 	schema:sameAs "458375" ;
 	schema:spatial wd:Q239 .
 
-wd:Q85458599 schema:name "Jan Ghieteels"@nl ;
+wd:Q76659011 schema:name "Laurens de Maecht"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1488-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "458480" ;
+	schema:temporal "1591-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "458414" ;
 	schema:spatial wd:Q239 ;
-	schema:temporal "1540-01-01T00:00:00Z"^^xsd:dateTime .
+	schema:temporal "1631-01-01T00:00:00Z"^^xsd:dateTime .
 
-wd:Q85751507 schema:spatial wd:Q239 .
+wd:Q77870800 schema:name "Daniel Eggermans"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1643-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "458477" ;
+	schema:spatial wd:Q239 .
+
+wd:Q77874913 schema:name "Jean Le Clerc"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1677-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "457491" ;
+	schema:spatial wd:Q239 ;
+	schema:temporal "1636-01-01T00:00:00Z"^^xsd:dateTime .
 
 wd:Q77876042 schema:name "Hieronymus Le Clerc"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1643-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:temporal "1679-01-01T00:00:00Z"^^xsd:dateTime ;
 	schema:sameAs "457765" ;
 	schema:spatial wd:Q239 ;
+	schema:temporal "1643-01-01T00:00:00Z"^^xsd:dateTime , "1722-01-01T00:00:00Z"^^xsd:dateTime ;
 	schema:hasOccupation "wever"@nl ;
 	schema:temporal "1689-01-01T00:00:00Z"^^xsd:dateTime .
-
-wd:Q85979470 schema:name "Peter van den Hecke"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1675-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "36787" ;
-	schema:spatial wd:Q239 .
-
-wd:Q86928623 schema:name "Willem van Leefdael"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1632-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "426634" ;
-	schema:spatial wd:Q239 .
 
 wd:Q79667986 schema:name "François Geubels"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1600-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:temporal "1540-01-01T00:00:00Z"^^xsd:dateTime ;
 	schema:sameAs "426227" ;
 	schema:spatial wd:Q239 ;
-	schema:temporal "1520-01-01T00:00:00Z"^^xsd:dateTime .
-
-wd:Q87492651 schema:name "Jan Frans van den Hecke"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1640-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "426369" ;
-	schema:spatial wd:Q239 .
+	schema:temporal "1600-01-01T00:00:00Z"^^xsd:dateTime , "1520-01-01T00:00:00Z"^^xsd:dateTime .
 
 wd:Q80829145 schema:name "Martin Reymbouts"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1557-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:temporal "1570-01-01T00:00:00Z"^^xsd:dateTime ;
 	schema:sameAs "427187" ;
+	schema:spatial wd:Q239 ;
+	schema:temporal "1557-01-01T00:00:00Z"^^xsd:dateTime , "1619-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q80835584 schema:name "Frans Reymbouts"@nl ;
+	a schema:Person ;
+	schema:hasOccupation "wandtapijtwever"@nl ;
+	schema:temporal "1648-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "458759" ;
 	schema:spatial wd:Q239 .
 
 wd:Q80834689 schema:name "Nicolaas Reymbouts"@nl ;
@@ -523,12 +603,13 @@ wd:Q80834689 schema:name "Nicolaas Reymbouts"@nl ;
 	schema:sameAs "458757" ;
 	schema:spatial wd:Q239 .
 
-wd:Q80835584 schema:name "Frans Reymbouts"@nl ;
+wd:Q80836601 schema:name "Martin Reymbouts III"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1648-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "458759" ;
-	schema:spatial wd:Q239 .
+	schema:temporal "1669-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "427177" ;
+	schema:spatial wd:Q239 ;
+	schema:temporal "1618-01-01T00:00:00Z"^^xsd:dateTime .
 
 wd:Q81246523 schema:name "Marcus de Vos"@nl ;
 	a schema:Person ;
@@ -537,26 +618,20 @@ wd:Q81246523 schema:name "Marcus de Vos"@nl ;
 	schema:sameAs "427006" ;
 	schema:spatial wd:Q239 .
 
-wd:Q107649853 schema:name "Daniël Abbeloos"@nl ;
+wd:Q84182004 schema:name "Hendrik Mattens"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1629-05-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "426886" ;
+	schema:temporal "1620-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "426372" ;
 	schema:spatial wd:Q239 .
 
-wd:Q111910474 schema:name "Frans Raes"@nl ;
+wd:Q117063914 schema:name "Michiel de Bos"@nl ;
 	a schema:Person ;
 	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1650-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "458749" ;
-	schema:spatial wd:Q239 .
-
-wd:Q110943676 schema:name "Corinne Toussein"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "textielkunstenaar"@nl ;
-	schema:temporal "1942-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "100357" ;
-	schema:spatial wd:Q239 .
+	schema:temporal "1560-01-01T00:00:00Z"^^xsd:dateTime ;
+	schema:sameAs "426670" ;
+	schema:spatial wd:Q239 ;
+	schema:temporal "1565-01-01T00:00:00Z"^^xsd:dateTime .
 
 wd:Q117336532 schema:name "Frans Tons"@nl ;
 	a schema:Person ;
@@ -600,10 +675,24 @@ wd:Q131933093 schema:spatial wd:Q239 , wd:Q180775 .
 wd:Q180775 a schema:Place ;
 	schema:name "Sint-Jans-Molenbeek"@nl .
 
-wd:Q21820564 schema:spatial wd:Q6581823 .
+wd:Q79667986 schema:spatial wd:Q6581823 .
 
 wd:Q6581823 a schema:Place ;
 	schema:name "Zuidelijke Nederlanden"@nl .
+
+wd:Q85979470 schema:spatial wd:Q6581823 .
+
+wd:Q101192134 schema:spatial wd:Q6581823 .
+
+wd:Q117336532 schema:spatial wd:Q6581823 .
+
+wd:Q107649853 schema:spatial wd:Q6581823 .
+
+wd:Q6167534 schema:spatial wd:Q6581823 .
+
+wd:Q118197289 schema:spatial wd:Q6581823 .
+
+wd:Q21820564 schema:spatial wd:Q6581823 .
 
 wd:Q46511574 schema:name "Jacob Geubels"@nl ;
 	a schema:Person ;
@@ -612,22 +701,3 @@ wd:Q46511574 schema:name "Jacob Geubels"@nl ;
 	schema:sameAs "426229" ;
 	schema:spatial wd:Q6581823 ;
 	schema:hasOccupation "textielkunstenaar"@nl , "wever"@nl .
-
-wd:Q79667986 schema:spatial wd:Q6581823 .
-
-wd:Q85979470 schema:spatial wd:Q6581823 .
-
-wd:Q107649853 schema:spatial wd:Q6581823 .
-
-wd:Q117336532 schema:spatial wd:Q6581823 .
-
-wd:Q6167534 schema:spatial wd:Q6581823 .
-
-wd:Q84182004 schema:name "Hendrik Mattens"@nl ;
-	a schema:Person ;
-	schema:hasOccupation "wandtapijtwever"@nl ;
-	schema:temporal "1620-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:sameAs "426372" ;
-	schema:spatial wd:Q239 .
-
-wd:Q118197289 schema:spatial wd:Q6581823 .
