@@ -1,5 +1,6 @@
 prefix schema: <https://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
 # select * 
 construct {
   ?pl schema:name ?placeLabel
@@ -7,7 +8,7 @@ construct {
 where {
   ?pl a schema:Place
   service <https://query.wikidata.org/sparql> {
-      ?pl rdfs:label ?placeLabel.
+      ?pl owl:sameAs*/rdfs:label ?placeLabel;
       FILTER (lang(?placeLabel) = "nl")
     }
 }
