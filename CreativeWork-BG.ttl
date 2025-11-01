@@ -1,0 +1,12 @@
+<https://www.openbeelden.nl/media/16528> a <https://schema.org/CreativeWork> .
+<https://www.openbeelden.nl/media/16528> <https://schema.org/name> "Bambang Oetoro demonstrates batik art in first batik gallery" .
+<https://www.openbeelden.nl/media/16528> <https://schema.org/url> "https://www.openbeelden.nl/files/16/16541.16531.BG_10306.mp4" .
+<https://www.openbeelden.nl/media/16528> <https://schema.org/material> <https://data.rkd.nl/thesaurus/55484> .
+<https://www.openbeelden.nl/media/16528> <https://schema.org/creator> <https://www.wikidata.org/wiki/Q122936319> .
+<https://www.wikidata.org/wiki/Q122936319> a <https://schema.org/Person> .
+<https://www.wikidata.org/wiki/Q122936319> <https://schema.org/name> "Bambang Oetoro" .
+<https://www.wikidata.org/wiki/Q122936319> <https://schema.org/hasOccupation> "textielkunstenaar" .
+<https://www.wikidata.org/wiki/Q122936319> <https://schema.org/spatial> <https://www.wikidata.org/wiki/Q252> .
+<https://www.wikidata.org/wiki/Q252> a <https://schema.org/Place> .
+<https://www.wikidata.org/wiki/Q252> <https://schema.org/name> "Indonesië" .
+<https://www.openbeelden.nl/media/16528> <https://schema.org/maintainer> <https://www.openbeelden.nl/> .
