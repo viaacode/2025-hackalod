@@ -142,7 +142,7 @@
   .tooltip p{ margin:6px 0 0; font:500 12px/1.35 system-ui; color:#7a1f1f }
   .tooltipimg{
     margin-top:8px; width:auto; border-radius:8px; background:#ccc center/cover no-repeat;
-    min-height:50x; max-height:100px;
+    min-height:100x; max-height:150px;
   }
 </style>
 </head>
@@ -258,7 +258,7 @@
   const warpWires=[
     { name:"Personen",  x: PAD_X + 0*warpSpacing },
     { name:"Plaatsen",  x: PAD_X + 1*warpSpacing },
-    { name:"Materiaal", x: PAD_X + 2*warpSpacing },
+    { name:"Materiaal & Technieken", x: PAD_X + 2*warpSpacing },
     { name:"Producten", x: PAD_X + 3*warpSpacing }
   ];
   const warpPositions=[];
@@ -300,17 +300,18 @@
     "2-0":{title:"Batik", desc:"Traditional Indonesian textile art."},
     "3-1":{title:"Silk batik cloth", desc:"Batik cloth", img:"https://media.rkd.nl/iiif/9200931/full/max/0/default.jpg"},
     "2-2":{title:"Batik", desc:"Traditional Indonesian textile art."},
+    "0-3":{title:"Bertha Bake", desc:"textielkunstenaar."},
     "1-3":{title:"Indonesia", desc:"Country in Southeast Asia.", img:"https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg"},
     "0-4":{title:"Bambang Oetoro",desc:"textielkunstenaar."},
-    "3-5":{title:"Bambang Oetoro demonstrates batik art in first batik gallery",desc:"Linked to weavers and workshops in Ghent.", img:"", videoSource:"https://www.openbeelden.nl/files/16/16541.16531.BG_10306.mp4", videoPoster:"https://www.openbeelden.nl/images/600806/BG_10306.png"},
+    "3-5":{title:"Bambang Oetoro demonstrates batik art in first batik gallery",desc:"", img:"", videoSource:"https://www.openbeelden.nl/files/16/16541.16531.BG_10306.mp4", videoPoster:"https://www.openbeelden.nl/images/600806/BG_10306.png"},
   };
   let overpoints = [
-    2,
-    3,
-    2,
-    1,
-    0,
-    3
+    [2],
+    [3],
+    [2],
+    [1, 0],
+    [0],
+    [3]
   ]
   window.setStoryForIntersection=(warpIndex,weftIndex,data)=>{ storyDB[`${warpIndex}-${weftIndex}`]=data||{}; };
 
@@ -337,7 +338,7 @@
     for(let j=0;j<warpPositions.length;j++){
       const x = OX + warpPositions[j];
       // const isOver = ((row + j) % 2 === 0);
-      if(overpoints[row] === j){
+      if(overpoints[row].includes(j)){
         var isOver = true;
       } else {
         var isOver = false;
@@ -368,7 +369,7 @@
   // --- Tooltip (clamped inside board) ---
   function showTooltipAtSVG(cx, cy, data) {
     ttTitle.textContent = data.title || 'Intersection';
-    ttDesc.textContent  = data.desc  || 'No description provided.';
+    ttDesc.textContent  = data.desc  || ' ';
     ttImg.src = data.img || 'https://blocks.astratic.com/img/general-img-square.png';
     if (data.img){
       ttImg.classList.add('show');
