@@ -9,12 +9,12 @@ for obj in object_records:
     print(obj["_images"]["_iiif_image_base_url"]+'full/max/0/default.jpg')
     print(obj["_primaryTitle"])
 
-with open("va_objects.nt", "w", encoding="utf-8") as f:
+with open("CreativeWork-VA.nt", "w", encoding="utf-8") as f:
     for obj in object_records:
         f.write("<https://collections.vam.ac.uk/item/" + obj["systemNumber"] + ">" + " a <https://schema.org/CreativeWork> .\n")
         f.write("<https://collections.vam.ac.uk/item/" + obj["systemNumber"] + ">" + " <https://schema.org/name> " + f'"{obj["_primaryTitle"]}"' + " .\n")
         f.write("<https://collections.vam.ac.uk/item/" + obj["systemNumber"] + ">" + " <https://schema.org/url> " + f'"{obj["_images"]["_iiif_image_base_url"]}full/max/0/default.jpg"' + " .\n")
-        f.write("<https://collections.vam.ac.uk/item/" + obj["systemNumber"] + ">" + " <https://schema.org/creator> " + "http://www.wikidata.org/entity/Q12747855> .\n")
+        f.write("<https://collections.vam.ac.uk/item/" + obj["systemNumber"] + ">" + " <https://schema.org/creator> " + "<http://www.wikidata.org/entity/Q12747855> .\n")
 
 
 record_count = object_info["record_count"]
