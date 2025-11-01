@@ -15,6 +15,7 @@ with open("CreativeWork-VA.nt", "w", encoding="utf-8") as f:
         f.write("<https://collections.vam.ac.uk/item/" + obj["systemNumber"] + ">" + " <https://schema.org/name> " + f'"{obj["_primaryTitle"]}"' + " .\n")
         f.write("<https://collections.vam.ac.uk/item/" + obj["systemNumber"] + ">" + " <https://schema.org/url> " + f'"{obj["_images"]["_iiif_image_base_url"]}full/max/0/default.jpg"' + " .\n")
         f.write("<https://collections.vam.ac.uk/item/" + obj["systemNumber"] + ">" + " <https://schema.org/creator> " + "<http://www.wikidata.org/entity/Q12747855> .\n")
+        f.write("<https://collections.vam.ac.uk/item/" + obj["systemNumber"] + ">" + " <https://schema.org/maintainer> " + "<https://www.vam.ac.uk/> .\n")
 
 
 record_count = object_info["record_count"]
