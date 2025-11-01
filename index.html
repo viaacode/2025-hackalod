@@ -114,7 +114,7 @@
   .thumbBig.show{display:block}
   .details h4{margin:0 0 6px; font-size:18px}
   .details p{margin:0; font-size:14px; color:#cfe0ff}
-
+  .hide{display:none}
   /* Threads & guides */
   .weft-seg, .warp { transform-box: fill-box; }
   .weft-seg{
@@ -126,11 +126,11 @@
   .dot{ fill: currentColor; stroke:#1b1b1b; stroke-width:2; }
 
   .warp{
-    stroke:#3a3a3a; stroke-width:7; stroke-linecap:round;
+    stroke:#3a3a3a; stroke-width:14; stroke-linecap:round;
     stroke-dasharray:8 14; opacity:.95; cursor:pointer; transition:.15s transform, .3s stroke;
   }
   .warp:hover{ stroke:#000; transform:translateY(-1px); }
-  .label{font:700 14px/1 system-ui,Segoe UI,Roboto,Arial; fill:#3a465e}
+  .label{font:700 30px/1 system-ui,Segoe UI,Roboto,Arial; fill:#3a465e}
 
   /* Tooltip — pinned inside the board */
   .tooltip{
@@ -140,6 +140,10 @@
     font:600 13px/1.25 system-ui,Segoe UI,Roboto,Arial;
   }
   .tooltip p{ margin:6px 0 0; font:500 12px/1.35 system-ui; color:#7a1f1f }
+  .tooltipimg{
+    margin-top:8px; width:auto; border-radius:8px; background:#ccc center/cover no-repeat;
+    min-height:50x; max-height:100px;
+  }
 </style>
 </head>
 <body>
@@ -171,40 +175,30 @@
               <g id="labels"></g>
             </svg>
           </div>
-
           <!-- tooltip (clamped inside board) -->
           <div id="tooltip" class="tooltip">
-            <div><strong id="ttTitle">Title</strong><p id="ttDesc">Description…</p></div>
+            <div>
+              <strong id="ttTitle">Title</strong>
+              <p id="ttDesc">Description…</p>
+              <img class="tooltipimg" id="ttImg" src="">
+              <div xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="oip_media" about="https://www.openbeelden.nl/files/16/16541.16531.BG_10306.mp4">
+                <video class="ttlVideo" height="150" width="auto"  controls="controls" autoplay loop>
+                  <source id="ttlVideoSource" type="video/mp4"/>
+                  <!-- <source type="video/ogg; codecs=theora" src="https://www.openbeelden.nl/files/16/16535.16531.BG_10306.ogv"/> -->
+                  <!-- <source type="application/x-mpegurl" src="https://www.openbeelden.nl/files/16/36537.16531.BG_10306.m3u8"/> -->
+                </video>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
       <!-- RIGHT: PANEL (Reset + Search + one slider + Info) -->
       <aside class="panel">
-        <div class="rowControls">
-          <h3>Controls</h3>
-          <button class="btn" id="btnReset">Reset</button>
-        </div>
 
         <div class="searchBox">
           <label class="small">Search</label>
           <input id="search" placeholder="Filter: Personen, Plaatsen, Materiaal, Producten">
           <ul id="results" class="results"></ul>
-        </div>
-
-        <label class="small">Thread thickness</label>
-        <div class="ctrlGroup">
-          <input id="thick" type="range" min="20" max="60" value="58">
-          <div class="out" id="thickOut">58 px</div>
-        </div>
-
-        <h3>Intersection Info</h3>
-        <div class="details">
-          <div class="thumbBig" id="detailsImg"></div>
-          <div>
-            <h4 id="detailsTitle">Hover or click an OVER intersection</h4>
-            <p id="detailsDesc">The story (image, title, description) will appear here and stay visible.</p>
-          </div>
         </div>
       </aside>
     </div>
@@ -237,6 +231,9 @@
   const tooltip=document.getElementById('tooltip');
   const ttTitle=document.getElementById('ttTitle');
   const ttDesc=document.getElementById('ttDesc');
+  const ttImg=document.getElementById('ttImg');
+  const ttlVideoSource=document.getElementById('ttlVideoSource');
+  console.log(ttlVideoSource)
 
   const btnReset=document.getElementById('btnReset');
 
@@ -273,7 +270,7 @@
     line.addEventListener('click', weaveNextLine); // DO NOT change: 1 click = 1 line
     warpsG.appendChild(line);
 
-    const label = svgEl('text',{x:x,y:OY+32,'text-anchor':'middle', class:'label'}, w.name);
+    const label = svgEl('text',{x:x,y:OY+32,'text-anchor':'middle', class:'label',  "font-size":"20px"}, w.name);
     labelsG.appendChild(label);
   });
 
@@ -300,8 +297,21 @@
 
   // --- Demo data (replace with your dataset if needed) ---
   const storyDB={
-    "2-1":{title:"Gent",desc:"Linked to weavers and workshops in Ghent.", img:""},
+    "2-0":{title:"Batik", desc:"Traditional Indonesian textile art."},
+    "3-1":{title:"Silk batik cloth", desc:"Batik cloth", img:"https://media.rkd.nl/iiif/9200931/full/max/0/default.jpg"},
+    "2-2":{title:"Batik", desc:"Traditional Indonesian textile art."},
+    "1-3":{title:"Indonesia", desc:"Country in Southeast Asia.", img:"https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg"},
+    "0-4":{title:"Bambang Oetoro",desc:"textielkunstenaar."},
+    "3-5":{title:"Bambang Oetoro demonstrates batik art in first batik gallery",desc:"Linked to weavers and workshops in Ghent.", img:"", videoSource:"https://www.openbeelden.nl/files/16/16541.16531.BG_10306.mp4", videoPoster:"https://www.openbeelden.nl/images/600806/BG_10306.png"},
   };
+  let overpoints = [
+    2,
+    3,
+    2,
+    1,
+    0,
+    3
+  ]
   window.setStoryForIntersection=(warpIndex,weftIndex,data)=>{ storyDB[`${warpIndex}-${weftIndex}`]=data||{}; };
 
   // --- State ---
@@ -326,7 +336,14 @@
     // alternating over segments with interactive dots
     for(let j=0;j<warpPositions.length;j++){
       const x = OX + warpPositions[j];
-      const isOver = ((row + j) % 2 === 0);
+      // const isOver = ((row + j) % 2 === 0);
+      if(overpoints[row] === j){
+        var isOver = true;
+      } else {
+        var isOver = false;
+      }
+
+
       if(isOver){
         line('line',{x1:x-22,x2:x+22,y1:y,y2:y, class:'weft-seg over', stroke:color}, null, overG);
 
@@ -337,6 +354,8 @@
         dotsG.appendChild(dot);
 
         const data = storyDB[`${j}-${row}`]||{};
+        console.log(data)
+        console.log(`${j}-${row}`);
         const show = ()=>{ showTooltipAtSVG(x,y,data); updateDetails(data, j, row); };
         seg.addEventListener('mouseenter', show);
         seg.addEventListener('click', show);
@@ -350,7 +369,28 @@
   function showTooltipAtSVG(cx, cy, data) {
     ttTitle.textContent = data.title || 'Intersection';
     ttDesc.textContent  = data.desc  || 'No description provided.';
-
+    ttImg.src = data.img || 'https://blocks.astratic.com/img/general-img-square.png';
+    if (data.img){
+      ttImg.classList.add('show');
+      ttImg.classList.remove('hide');
+    } else {
+      ttImg.classList.remove('show');
+      ttImg.classList.add('hide');
+    }
+    console.log("AAAAA");
+    console.log(ttlVideoSource)
+    if (data.hasOwnProperty('videoSource')){
+      ttlVideoSource.src = data.videoSource;
+      ttlVideoSource.parentElement.load();
+      ttlVideoSource.parentElement.poster = data.videoPoster || '';
+      ttlVideoSource.parentElement.classList.remove('hide');
+    } else {
+      console.log("hiding video");
+      ttlVideoSource.src = '';
+      ttlVideoSource.parentElement.load();
+      ttlVideoSource.parentElement.poster = '';
+      ttlVideoSource.parentElement.classList.add('hide');
+    }
     const pt = svg.createSVGPoint(); pt.x = cx; pt.y = cy;
     const scr = pt.matrixTransform(svg.getScreenCTM());
     const rect = stage.getBoundingClientRect();
@@ -377,12 +417,29 @@
   function updateDetails(data, j, r){
     detailsTitle.textContent = data.title || `Warp ${j+1} · Weft ${r+1}`;
     detailsDesc.textContent  = data.desc  || 'No description provided.';
+    console.log(data);
     if (data.img){
       detailsImg.classList.add('show');
+      detailsImg.classList.remove('hide');
       detailsImg.style.backgroundImage = `url('${data.img}')`;
     } else {
       detailsImg.classList.remove('show');
+      detailsImg.classList.add('hide');
       detailsImg.style.backgroundImage = 'none';
+    }
+    console.log("AAAAA");
+    console.log(ttlVideoSource)
+    if (data.hasOwnProperty('videoSource')){
+      ttlVideoSource.src = data.videoSource;
+      ttlVideoSource.parentElement.load();
+      ttlVideoSource.parentElement.poster = data.videoPoster || '';
+      ttlVideoSource.parentElement.classList.remove('hide');
+    } else {
+      console.log("hiding video");
+      ttlVideoSource.src = '';
+      ttlVideoSource.parentElement.load();
+      ttlVideoSource.parentElement.poster = '';
+      ttlVideoSource.parentElement.classList.add('hide');
     }
   }
 
