@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Loom UI — presentation build (front-end only)</title>
+<style>
+  :root{
+    /* Threads (only visible control) */
+    --weft-width: 58;          /* default thickness in px */
+    --weft-over-extra: 12;     /* extra thickness for OVER segments */
+
+    /* Background tuning (fixed; change here if needed) */
+    --bg-scale: 1.05;
+    --bg-offset-x: 0px;
+    --bg-offset-y: -20px;
+    --bg-opacity: .26;
+
+    --ink:#e6eef8; --muted:#9fb0d1; --brand:#60a5fa;
+    --bg:#0b1220; --paper:#ffffff; --border: rgba(96,165,250,.14);
+  }
+
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0; color:var(--ink);
+    font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,Inter,Arial;
+    background:
+      radial-gradient(900px 600px at 8% 12%, #0f1b39 20%, transparent 60%),
+      radial-gradient(900px 600px at 92% 88%, #0c1730 20%, transparent 60%),
+      linear-gradient(180deg, #0b1222, #0a1326 60%, #0a1122);
+    display:flex; align-items:center; justify-content:center; padding:28px;
+  }
+
+  .shell{
+    width:min(1640px,98vw);
+    border:1px solid var(--border);
+    background:linear-gradient(180deg, #0c1426, #0b1220 30%, #0a111e);
+    border-radius:22px; padding:18px;
+    box-shadow:0 18px 60px rgba(1,6,18,.55);
+  }
+
+  .header{display:flex; align-items:center; justify-content:space-between; gap:16px}
+  .title h1{margin:0; font-size:20px; letter-spacing:.2px}
+  .title .sub{color:var(--muted); font-size:13px}
+
+  .layout{
+    display:grid; grid-template-columns:2.4fr 1.2fr; gap:18px; margin-top:12px;
+  }
+
+  /* LEFT — Loom board */
+  .board{
+    position:relative; min-height:740px; border-radius:18px; overflow:hidden;
+    background:var(--paper);
+    box-shadow: inset 0 0 0 1px rgba(2,6,23,.12);
+  }
+  .stage{position:absolute; inset:0; padding:16px}
+  .bgLayer{
+    position:absolute; inset:16px; border-radius:14px; overflow:hidden; z-index:0; pointer-events:none;
+    background:#fff;
+  }
+  .bgLayer img{
+    position:absolute; top:50%; left:50%;
+    transform:
+      translate(calc(-50% + var(--bg-offset-x)), calc(-50% + var(--bg-offset-y)))
+      scale(var(--bg-scale));
+    transform-origin:center center;
+    height:100%; width:auto;
+    opacity:var(--bg-opacity);
+    filter:saturate(.9) contrast(1.06);
+  }
+  .svgWrap{position:absolute; inset:16px; z-index:1; border-radius:14px; overflow:visible}
+  svg{width:100%; height:100%; display:block; background:transparent; border-radius:14px}
+
+  /* RIGHT — Side panel (Reset + Search + Info + one slider) */
+  .panel{
+    background:#0f172a; border:1px solid #1b2942; border-radius:18px; padding:16px;
+    display:flex; flex-direction:column; gap:14px; min-height:100%;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.02);
+  }
+  .panel h3{margin:0 0 8px; font-size:16px}
+  .rowControls{display:flex; gap:10px; align-items:center; justify-content:space-between}
+  .btn{
+    appearance:none; border:1px solid #233046; background:#101a2f; color:var(--ink);
+    padding:10px 14px; border-radius:12px; font-size:14px; cursor:pointer; transition:.2s;
+  }
+  .btn:hover{border-color:var(--brand); transform:translateY(-1px)}
+
+  .searchBox input{
+    width:100%; background:#0d1528; border:1px solid #233046; color:var(--ink);
+    padding:10px 12px; border-radius:10px; font-size:14px; outline:none;
+  }
+  .searchBox input:focus{border-color:#60a5fa; box-shadow:0 0 0 2px rgba(96,165,250,.25)}
+  .results{list-style:none; margin:8px 0 0; padding:0; max-height:140px; overflow:auto; font-size:13px; color:var(--muted)}
+  .results li{padding:8px 10px; border-radius:10px; cursor:pointer; display:flex; justify-content:space-between}
+  .results li:hover{background:#11213a; color:#d3e7ff}
+
+  .ctrlGroup{display:grid; grid-template-columns:1fr 90px; gap:10px; align-items:center}
+  label.small{font-size:12px; color:var(--muted)}
+  input[type="range"]{
+    background:#0d1528; border:1px solid #233046; color:var(--ink);
+    padding:8px 10px; border-radius:10px; font-size:14px; outline:none;
+  }
+  input[type="range"]:focus{border-color:#60a5fa; box-shadow:0 0 0 2px rgba(96,165,250,.25)}
+  .out{font-size:12px; color:#9fb0d1; text-align:right}
+
+  .details{
+    margin-top:4px;
+    background:#0c1426; border:1px solid #223252; border-radius:14px; padding:14px;
+    display:grid; grid-template-columns:auto 1fr; gap:12px; align-items:flex-start; min-height:240px;
+  }
+  .thumbBig{display:none; width:120px; height:120px; border-radius:12px; background:#0a0f1e center/cover no-repeat;
+    border:1px solid #2a3a5a; box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .thumbBig.show{display:block}
+  .details h4{margin:0 0 6px; font-size:18px}
+  .details p{margin:0; font-size:14px; color:#cfe0ff}
+
+  /* Threads & guides */
+  .weft-seg, .warp { transform-box: fill-box; }
+  .weft-seg{
+    stroke-width: calc(var(--weft-width) * 1px);
+    stroke-linecap:round; transform-origin:0% 50%;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,.12));
+  }
+  .over{ stroke-width: calc((var(--weft-width) + var(--weft-over-extra)) * 1px); }
+  .dot{ fill: currentColor; stroke:#1b1b1b; stroke-width:2; }
+
+  .warp{
+    stroke:#3a3a3a; stroke-width:7; stroke-linecap:round;
+    stroke-dasharray:8 14; opacity:.95; cursor:pointer; transition:.15s transform, .3s stroke;
+  }
+  .warp:hover{ stroke:#000; transform:translateY(-1px); }
+  .label{font:700 14px/1 system-ui,Segoe UI,Roboto,Arial; fill:#3a465e}
+
+  /* Tooltip — pinned inside the board */
+  .tooltip{
+    position:absolute; pointer-events:none; display:none; z-index:3;
+    background:#fde2e2; color:#5b1111; border:2px solid #e34234;
+    border-radius:10px; padding:10px 12px; max-width:260px; box-shadow:0 8px 28px rgba(0,0,0,.25);
+    font:600 13px/1.25 system-ui,Segoe UI,Roboto,Arial;
+  }
+  .tooltip p{ margin:6px 0 0; font:500 12px/1.35 system-ui; color:#7a1f1f }
+</style>
+</head>
+<body>
+  <div class="shell">
+    <div class="header">
+      <div class="title">
+        <h1>Loom UI — presentation</h1>
+        <div class="sub">Click a vertical guide to weave one line. Over/under alternates; info appears on OVER intersections. (Logic unchanged)</div>
+      </div>
+    </div>
+
+    <div class="layout">
+      <!-- LEFT: LOOM BOARD -->
+      <div class="board">
+        <div class="stage">
+          <!-- local background image -->
+          <div class="bgLayer">
+            <!-- Put your file next to this HTML and keep the name, or change src -->
+            <img id="loomImg" src="loom_bg.jpg" alt="loom background">
+          </div>
+
+          <!-- SVG loom -->
+          <div class="svgWrap">
+            <svg id="loom" viewBox="0 0 1560 900" preserveAspectRatio="xMidYMid meet" aria-label="Weaving area">
+              <g id="underWefts"></g>
+              <g id="warps"></g>
+              <g id="overWefts"></g>
+              <g id="dots"></g>
+              <g id="labels"></g>
+            </svg>
+          </div>
+
+          <!-- tooltip (clamped inside board) -->
+          <div id="tooltip" class="tooltip">
+            <div><strong id="ttTitle">Title</strong><p id="ttDesc">Description…</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: PANEL (Reset + Search + one slider + Info) -->
+      <aside class="panel">
+        <div class="rowControls">
+          <h3>Controls</h3>
+          <button class="btn" id="btnReset">Reset</button>
+        </div>
+
+        <div class="searchBox">
+          <label class="small">Search</label>
+          <input id="search" placeholder="Filter: Personen, Plaatsen, Materiaal, Producten">
+          <ul id="results" class="results"></ul>
+        </div>
+
+        <label class="small">Thread thickness</label>
+        <div class="ctrlGroup">
+          <input id="thick" type="range" min="20" max="60" value="58">
+          <div class="out" id="thickOut">58 px</div>
+        </div>
+
+        <h3>Intersection Info</h3>
+        <div class="details">
+          <div class="thumbBig" id="detailsImg"></div>
+          <div>
+            <h4 id="detailsTitle">Hover or click an OVER intersection</h4>
+            <p id="detailsDesc">The story (image, title, description) will appear here and stay visible.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+<script>
+/* ==========================================================================
+   Front-end only. Weaving behavior unchanged:
+   - Click any vertical guide ⇒ weave ONE horizontal line.
+   - Over/Under alternates like a checkerboard.
+   - Info attaches to OVER intersections (hover/click).
+   ========================================================================== */
+(function(){
+  // --- Geometry ---
+  const WIDTH=1460, HEIGHT=760, NUM_WARPS=4;
+  const PAD_X=120, PAD_Y=90;
+  const warpSpacing=(WIDTH-PAD_X*2)/(NUM_WARPS-1);
+  const STEP_Y=48;
+  const OX=80, OY=80;
+
+  // --- DOM ---
+  const stage=document.querySelector('.stage');
+  const svg=document.getElementById('loom');
+  const underG=document.getElementById('underWefts');
+  const warpsG=document.getElementById('warps');
+  const overG=document.getElementById('overWefts');
+  const dotsG=document.getElementById('dots');
+  const labelsG=document.getElementById('labels');
+
+  const tooltip=document.getElementById('tooltip');
+  const ttTitle=document.getElementById('ttTitle');
+  const ttDesc=document.getElementById('ttDesc');
+
+  const btnReset=document.getElementById('btnReset');
+
+  const search=document.getElementById('search');
+  const results=document.getElementById('results');
+
+  const detailsImg=document.getElementById('detailsImg');
+  const detailsTitle=document.getElementById('detailsTitle');
+  const detailsDesc=document.getElementById('detailsDesc');
+
+  const thick=document.getElementById('thick');
+  const thickOut=document.getElementById('thickOut');
+
+  // --- Visual palette for wefts ---
+  const WEFT_PALETTE = ['#ffe89a','#ffc37a','#ff8a3d','#9cc7ff','#1e3a8a','#e34234','#f4c01e','#2c7d59','#2746d1','#111111'];
+  const weftColor = i => WEFT_PALETTE[i % WEFT_PALETTE.length];
+
+  // Dot color mode: per warp column for clarity on stage
+  const DOT_WARP_COLORS = ['#111111','#0ea5e9','#16a34a','#f97316'];
+
+  // --- Warps (guides + labels) ---
+  const warpWires=[
+    { name:"Personen",  x: PAD_X + 0*warpSpacing },
+    { name:"Plaatsen",  x: PAD_X + 1*warpSpacing },
+    { name:"Materiaal", x: PAD_X + 2*warpSpacing },
+    { name:"Producten", x: PAD_X + 3*warpSpacing }
+  ];
+  const warpPositions=[];
+  warpWires.forEach((w,idx)=>{
+    warpPositions.push(w.x);
+    const x=OX + w.x;
+
+    const line = svgEl('line',{x1:x,y1:OY+PAD_Y,x2:x,y2:OY+HEIGHT-PAD_Y, class:'warp'});
+    line.addEventListener('click', weaveNextLine); // DO NOT change: 1 click = 1 line
+    warpsG.appendChild(line);
+
+    const label = svgEl('text',{x:x,y:OY+32,'text-anchor':'middle', class:'label'}, w.name);
+    labelsG.appendChild(label);
+  });
+
+  // --- Search in side panel ---
+  search.addEventListener('input', e=>{
+    const q = e.target.value.toLowerCase().trim();
+    results.innerHTML='';
+    if(!q) return;
+    warpWires.forEach((w, idx)=>{
+      if(w.name.toLowerCase().includes(q)){
+        const li=document.createElement('li');
+        li.innerHTML = `<span>${w.name}</span><span>warp ${idx+1}</span>`;
+        li.onclick = ()=> highlightWarp(idx);
+        results.appendChild(li);
+      }
+    });
+  });
+  function highlightWarp(idx){
+    const line = warpsG.querySelectorAll('line')[idx];
+    if(!line) return;
+    line.style.filter='drop-shadow(0 0 0.5px #fff)';
+    setTimeout(()=>line.style.filter='', 900);
+  }
+
+  // --- Demo data (replace with your dataset if needed) ---
+  const storyDB={
+    "2-1":{title:"Gent",desc:"Linked to weavers and workshops in Ghent.", img:""},
+  };
+  window.setStoryForIntersection=(warpIndex,weftIndex,data)=>{ storyDB[`${warpIndex}-${weftIndex}`]=data||{}; };
+
+  // --- State ---
+  let row=0, animating=false;
+
+  // --- Weaving behavior (unchanged) ---
+  function weaveNextLine(){
+    if(animating) return;
+
+    const y = OY + PAD_Y + row*STEP_Y;
+    if(y > OY + HEIGHT - PAD_Y) return;
+
+    animating=true;
+
+    const xLeft  = OX + warpPositions[0] - 40;
+    const xRight = OX + warpPositions[warpPositions.length-1] + 40;
+    const color  = weftColor(row);
+
+    // long under segment
+    line('line',{x1:xLeft,x2:xRight,y1:y,y2:y, class:'weft-seg', stroke:shade(color,-12)}, null, underG);
+
+    // alternating over segments with interactive dots
+    for(let j=0;j<warpPositions.length;j++){
+      const x = OX + warpPositions[j];
+      const isOver = ((row + j) % 2 === 0);
+      if(isOver){
+        line('line',{x1:x-22,x2:x+22,y1:y,y2:y, class:'weft-seg over', stroke:color}, null, overG);
+
+        const seg=line('line',{x1:x-22,x2:x+22,y1:y,y2:y, class:'weft-seg over', stroke:'transparent'}, null, overG);
+
+        const dot=svgEl('circle',{cx:x,cy:y,r:7,class:'dot'});
+        dot.style.color = DOT_WARP_COLORS[j % DOT_WARP_COLORS.length];
+        dotsG.appendChild(dot);
+
+        const data = storyDB[`${j}-${row}`]||{};
+        const show = ()=>{ showTooltipAtSVG(x,y,data); updateDetails(data, j, row); };
+        seg.addEventListener('mouseenter', show);
+        seg.addEventListener('click', show);
+        seg.addEventListener('mouseleave', hideTooltip);
+      }
+    }
+    setTimeout(()=>{ row++; animating=false; }, 90);
+  }
+
+  // --- Tooltip (clamped inside board) ---
+  function showTooltipAtSVG(cx, cy, data) {
+    ttTitle.textContent = data.title || 'Intersection';
+    ttDesc.textContent  = data.desc  || 'No description provided.';
+
+    const pt = svg.createSVGPoint(); pt.x = cx; pt.y = cy;
+    const scr = pt.matrixTransform(svg.getScreenCTM());
+    const rect = stage.getBoundingClientRect();
+
+    tooltip.style.display = 'block';
+
+    const pad = 8, tw=tooltip.offsetWidth||240, th=tooltip.offsetHeight||84;
+    let left = (scr.x - rect.left) + 12;
+    let top  = (scr.y - rect.top)  + 12;
+
+    const maxL = rect.width  - tw - pad;
+    const maxT = rect.height - th - pad;
+    if (left > maxL) left = Math.max(pad, (scr.x - rect.left) - tw - 12);
+    if (top  > maxT) top  = Math.max(pad, (scr.y - rect.top)  - th - 12);
+    left = Math.max(pad, Math.min(maxL, left));
+    top  = Math.max(pad, Math.min(maxT, top));
+
+    tooltip.style.left = left + 'px';
+    tooltip.style.top  = top  + 'px';
+  }
+  function hideTooltip(){ tooltip.style.display='none'; }
+
+  // --- Info panel update ---
+  function updateDetails(data, j, r){
+    detailsTitle.textContent = data.title || `Warp ${j+1} · Weft ${r+1}`;
+    detailsDesc.textContent  = data.desc  || 'No description provided.';
+    if (data.img){
+      detailsImg.classList.add('show');
+      detailsImg.style.backgroundImage = `url('${data.img}')`;
+    } else {
+      detailsImg.classList.remove('show');
+      detailsImg.style.backgroundImage = 'none';
+    }
+  }
+
+  // --- Only visible control: thread thickness ---
+  thick.addEventListener('input', e=>{
+    document.documentElement.style.setProperty('--weft-width', e.target.value);
+    thickOut.textContent = e.target.value + ' px';
+  });
+
+  // --- Reset (clears weaving only) ---
+  btnReset.onclick=()=>{
+    underG.innerHTML=''; overG.innerHTML=''; dotsG.innerHTML='';
+    row=0; hideTooltip();
+    updateDetails({title:"Hover or click an OVER intersection",desc:"The story (image, title, description) will appear here and stay visible.",img:""},0,0);
+  };
+
+  // --- Utilities ---
+  function svgEl(tag, attrs={}, text){
+    const e=document.createElementNS('http://www.w3.org/2000/svg', tag);
+    for(const k in attrs){ e.setAttribute(k, attrs[k]); }
+    if(text!=null) e.textContent=text;
+    return e;
+  }
+  function line(tag, attrs, text, parent){
+    const e = svgEl(tag, attrs, text); (parent||overG).appendChild(e); return e;
+  }
+  function shade(hex, p){
+    const num=parseInt(hex.replace('#',''),16);
+    let r=(num>>16)+p, g=((num>>8)&0xFF)+p, b=(num&0xFF)+p;
+    r=Math.max(0,Math.min(255,r)); g=Math.max(0,Math.min(255,g)); b=Math.max(0,Math.min(255,b));
+    return '#'+(b | (g<<8) | (r<<16)).toString(16).padStart(6,'0');
+  }
+})();
+</script>
+</body>
+</html>
