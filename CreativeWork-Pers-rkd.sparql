@@ -5,9 +5,11 @@ prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 # select distinct ?s
 construct {
   ?s a schema:CreativeWork;
-    schema:creator ?sperson;
-    .
-  ?sperson a schema:Person;
+    schema:creator ?personiri;
+    schema:maintainer <https://www.rkd.nl>;
+  .
+  ?personiri a schema:Person;
+    schema:name ?personname
 }
 where {
   {
@@ -16,7 +18,18 @@ where {
     }
     ?s <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ?type;
     optional{
-      ?s <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>/<http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by>/rdf:rest*/rdf:first/<http://www.cidoc-crm.org/cidoc-crm/P141_assigned>/<http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> ?sperson
+      ?s <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>/<http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by>/rdf:rest*/rdf:first/<http://www.cidoc-crm.org/cidoc-crm/P141_assigned>/<http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> ?sperson;
+      .
+      ?sperson <https://linked.art/ns/terms/equivalent> ?wid;
+        rdfs:label ?personname.
+      filter(strstarts(str(?wid), 'http://www.wikidata.org/entity/'))
+      bind(
+        if(
+          bound(?wid),
+          iri(?wid),
+          ?sperson
+        )
+        as ?personiri)
     }
   }
   union
@@ -26,7 +39,18 @@ where {
     }
     ?s <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of> ?material;
     optional{
-      ?s <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>/<http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by>/rdf:rest*/rdf:first/<http://www.cidoc-crm.org/cidoc-crm/P141_assigned>/<http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> ?sperson
+      ?s <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>/<http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by>/rdf:rest*/rdf:first/<http://www.cidoc-crm.org/cidoc-crm/P141_assigned>/<http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> ?sperson;
+      .
+      ?sperson <https://linked.art/ns/terms/equivalent> ?wid;
+        rdfs:label ?personname.
+      filter(strstarts(str(?wid), 'http://www.wikidata.org/entity/'))
+      bind(
+        if(
+          bound(?wid),
+          iri(?wid),
+          ?sperson
+        )
+        as ?personiri)
     }
   }
 }
