@@ -1,0 +1,17 @@
+#Cats
+# SELECT distinct ?item ?itemLabel
+prefix schema: <https://schema.org/>
+CONSTRUCT {
+  ?s schema:identifier ?id.
+   ?rkiri schema:identifier ?id
+}
+WHERE
+{
+     ?s wdt:P6764 ?id
+      OPTIONAL {
+        ?s wdt:P650 ?rkid
+           BIND(iri(concat('https://rkd.nl/artists/', ?rkid))as ?rkiri)
+        }
+        SERVICE wikibase:label { bd:serviceParam wikibase:language "nl,en". } # Helps get the label in your language, if not, then default for all languages, then en language
+}
+# Invoke-WebRequest -Uri "https://query.wikidata.org/sparql?query=%23Cats%0A%23%20SELECT%20distinct%20%3Fitem%20%3FitemLabel%0Aprefix%20schema%3A%20%3Chttps%3A%2F%2Fschema.org%2F%3E%0A%23%20CONSTRUCT%20%7B%0A%23%20%20%20%3Fitem%20schema%3Aname%20%3FitemLabel%3B%0A%23%20%20%20%20%20%20%20%20%20a%20schema%3APerson%3B%0A%23%20%20%20%20%20%20%20%20%20schema%3AhasOccupation%20%3FoccLabel%3B%0A%23%20%20%20%20%20%20%20%20%20schema%3Atemporal%20%3Fdate%3B%0A%23%20%20%20%20%20%20%20%20%20schema%3AsameAs%20%3Fid%3B%0A%23%20%20%20%20%20%20%20%20%20schema%3Aspatial%20%3Fcountry%3B%0A%23%20%20%20%20%20%20%20%20%20.%0A%23%20%20%20%3Fcountry%20a%20schema%3APlace%3B%0A%23%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aname%20%3FcountryLabel%3B%0A%23%20%7D%0A%23%20select%20%3FsLabel%20%3Fid%0ACONSTRUCT%20%7B%0A%20%20%3Fs%20schema%3Aidentifier%20%3Fid.%0A%20%20%20%3Frkiri%20schema%3Aidentifier%20%3Fid%0A%7D%0AWHERE%0A%7B%0A%20%20%20%20%20%3Fs%20wdt%3AP6764%20%3Fid%0A%20%20%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%3Fs%20wdt%3AP650%20%3Frkid%0A%20%20%20%20%20%20%20%20%20%20%20BIND(iri(concat('https%3A%2F%2Frkd.nl%2Fartists%2F'%2C%20%3Frkid))as%20%3Frkiri)%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%2Cen%22.%20%7D%20%23%20Helps%20get%20the%20label%20in%20your%20language%2C%20if%20not%2C%20then%20default%20for%20all%20languages%2C%20then%20en%20language%0A%7D" -Headers @{ "Accept" = "text/turtle" } -OutFile p.ttl 

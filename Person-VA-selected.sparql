@@ -1,0 +1,9 @@
+prefix schema: <https://schema.org/>
+construct {
+  ?s schema:identifierVA ?id
+} where {
+  ?s a schema:Person 
+  service <https://api.meemoo-qas.triply.cc/datasets/meemoo/VA/services/VA/sparql> {
+    ?s schema:identifier ?id
+  }
+}
