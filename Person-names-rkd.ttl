@@ -1,0 +1,826 @@
+@prefix artists: <https://data.rkd.nl/artists/>.
+@prefix schema: <https://schema.org/>.
+
+artists:10408 schema:name "Bonnemer, François"@nl.
+artists:104620 schema:name "Smit, Helma"@nl.
+artists:10694 schema:name "Borcht, Frans van der (1592)"@nl.
+artists:115033 schema:name "Aben-Kreupeling, Sonja"@nl.
+artists:12196 schema:name "Bray, Salomon de"@nl.
+artists:127468 schema:name "Gucht, Maximiliaan van der"@nl.
+artists:131500 schema:name "Jean, Julien"@nl.
+artists:132862 schema:name "Baert, Alexander (I)"@nl.
+artists:134014 schema:name "Toorenvliet, Abraham (I)"@nl.
+artists:134202 schema:name "Spiering, François"@nl.
+artists:13686 schema:name "Bruynesteyn, Nicolaas"@nl.
+artists:14888 schema:name "Calvi, Lazzaro"@nl.
+artists:14913 schema:name "Cambiaso, Luca"@nl.
+artists:15712 schema:name "Casanova, Francesco"@nl.
+artists:17262 schema:name "Klein, Frantz"@nl.
+artists:17468 schema:name "Coecke van Aelst, Pieter (I)"@nl.
+artists:18229 schema:name "Coppens, Augustijn"@nl.
+artists:18792 schema:name "Cousin, Louis"@nl.
+artists:18825 schema:name "Couwenbergh, Christiaen van"@nl.
+artists:18888 schema:name "Coxie, Michiel (I)"@nl.
+artists:18907 schema:name "Cozette, Pierre François"@nl.
+artists:18978 schema:name "Cranach, Lucas (I)"@nl.
+artists:1984 schema:name "Anoniem"@nl.
+artists:22225 schema:name "Desportes, François"@nl.
+artists:22669 schema:name "Diepenbeeck, Abraham van"@nl.
+artists:230467 schema:name "Schidlo-Riedl, Johanna"@nl.
+artists:23135 schema:name "Dijsselhof, Gerrit Willem"@nl.
+artists:240503 schema:name "Moor, Frans de"@nl.
+artists:251921 schema:name "Puit, Julius de"@nl.
+artists:25427 schema:name "Eckhout, Albert"@nl.
+artists:25702 schema:name "Egmont, Justus van"@nl.
+artists:25709 schema:name "Egten, Fiep van"@nl.
+artists:263076 schema:name "Karcher, Luigi (II)"@nl.
+artists:263980 schema:name "Pannemaker, Willem de"@nl.
+artists:263994 schema:name "Vos, Judocus de"@nl.
+artists:266194 schema:name "Hobijn-Roth, May"@nl.
+artists:278573 schema:name "Vernansal, Guy Louis (I)"@nl.
+artists:30045 schema:name "Galle, Philips"@nl.
+artists:309233 schema:name "Baume-Dürrbach, J. de la"@nl.
+artists:31177 schema:name "Gertner, Peter"@nl.
+artists:318505 schema:name "Teinitzerové, Marie"@nl.
+artists:32026 schema:name "Giulio Romano"@nl.
+artists:324339 schema:name "Ruperti, Madja"@nl.
+artists:327337 schema:name "Schütz-Wolff, Johanna"@nl.
+artists:333110 schema:name "Boteram, Rinaldo"@nl.
+artists:33501 schema:name "Grebber, Pieter de"@nl.
+artists:337133 schema:name "Vermillion, Jan-Baptist"@nl.
+artists:342429 schema:name "Fabri van Aalst, Peter"@nl.
+artists:342430 schema:name "Aelst van Edingen, Pieter van"@nl.
+artists:34374 schema:name "Grijef, Adriaen de"@nl.
+artists:351625 schema:name "Aëgerter, Laurence"@nl.
+artists:353367 schema:name "Dumons, Jean-Joseph"@nl.
+artists:353371 schema:name "Verblaes, Crijn"@nl.
+artists:354377 schema:name "Lefebvre & fils, Piat"@nl.
+artists:360030 schema:name "Sheldon, William"@nl.
+artists:361291 schema:name "Raedt, Willem Andriesz. de"@nl.
+artists:36561 schema:name "Haven, Lambert van"@nl.
+artists:3666 schema:name "Bake, Bertha"@nl.
+artists:36787 schema:name "Hecke, Peter van den (II)"@nl.
+artists:36851 schema:name "Heemskerck, Maarten van"@nl.
+artists:36929 schema:name "Heesen, Riek"@nl.
+artists:371228 schema:name "Braquenié Frères"@nl.
+artists:37869 schema:name "Herp, Guilliam van (I)"@nl.
+artists:37906 schema:name "Herreyns, Jacob (I)"@nl.
+artists:37907 schema:name "Herreyns, Jacob (II)"@nl.
+artists:39284 schema:name "Holsteyn, Pieter (I)"@nl.
+artists:39416 schema:name "Hondt, Lambert de (II)"@nl.
+artists:39419 schema:name "Hondt, Philips de"@nl.
+artists:39858 schema:name "Horst, Nicolaes van der"@nl.
+artists:40031 schema:name "Houten, Gerard van"@nl.
+artists:40087 schema:name "Houzé, Florentin"@nl.
+artists:40322 schema:name "Huet, Jean-Baptiste (I)"@nl.
+artists:41311 schema:name "Straßburg, Jacob von"@nl.
+artists:417017 schema:name "Lefebure, Lanceloot"@nl.
+artists:41853 schema:name "Janssen, Danielle"@nl.
+artists:419045 schema:name "Bouyzgarne, Mohamed"@nl.
+artists:419110 schema:name "Ruffelaer, Davidt"@nl.
+artists:425408 schema:name "Wentzel, Johann Friedrich"@nl.
+artists:426227 schema:name "Geubels, Frans"@nl.
+artists:426229 schema:name "Geubels, Jacob (II)"@nl.
+artists:426231 schema:name "Geubels, Jacob (I)"@nl.
+artists:426254 schema:name "Driessche, Andries van den"@nl.
+artists:426272 schema:name "Baert en soonen, Weduwe Alexander"@nl.
+artists:426307 schema:name "Blommaert, Adriaan"@nl.
+artists:426347 schema:name "Leyniers, Urbanus"@nl.
+artists:426348 schema:name "Leyniers, Daniël (II)"@nl.
+artists:426349 schema:name "Leyniers, Daniël (III)"@nl.
+artists:426352 schema:name "Leyniers, Everaert (III)"@nl.
+artists:426354 schema:name "Leyniers, Jan (II)"@nl.
+artists:426355 schema:name "Raes, Jan (I)"@nl.
+artists:426356 schema:name "Raes, Jan (II)"@nl.
+artists:426362 schema:name "Hecke, Frans van den (I)"@nl.
+artists:426364 schema:name "Hecke, Frans van den (II)"@nl.
+artists:426369 schema:name "Hecke, Jan François van den"@nl.
+artists:426370 schema:name "Hecke, Anton van den"@nl.
+artists:426371 schema:name "Mattens, Cornelis"@nl.
+artists:426372 schema:name "Mattens, Hendrik"@nl.
+artists:426373 schema:name "Mattens, Jan"@nl.
+artists:426395 schema:name "Orley, Michel van"@nl.
+artists:426474 schema:name "Tiegen, Jan van (I)"@nl.
+artists:426631 schema:name "Leefdael, Jan van"@nl.
+artists:426634 schema:name "Leefdael, Guilliam van"@nl.
+artists:426649 schema:name "Cordijs, Jacques (I)"@nl.
+artists:426658 schema:name "Cordijs, Jacques (II)"@nl.
+artists:426661 schema:name "Foppens, Hans"@nl.
+artists:426665 schema:name "Brugghen, Koenraad van der"@nl.
+artists:426666 schema:name "Brugghen, Jan van"@nl.
+artists:426670 schema:name "Bos, Michiel de"@nl.
+artists:426674 schema:name "Auwercx, Albert"@nl.
+artists:426886 schema:name "Abbeloos, Daniël"@nl.
+artists:426888 schema:name "Aerts, Nicasius (II)"@nl.
+artists:426890 schema:name "Aerts, Nicasius (I)"@nl.
+artists:426892 schema:name "Aerts, Jan (1629)"@nl.
+artists:427003 schema:name "Strecken, Geraert van der"@nl.
+artists:427004 schema:name "Wauters, Michiel"@nl.
+artists:427006 schema:name "Vos, Marcus de (1630)"@nl.
+artists:427059 schema:name "Zeunen, Jacob van"@nl.
+artists:427171 schema:name "Peemans, Gerard"@nl.
+artists:427172 schema:name "Poyntz, Thomas"@nl.
+artists:427177 schema:name "Reymbouts, Martin (III)"@nl.
+artists:427184 schema:name "Reymbouts, Martin (I)"@nl.
+artists:427187 schema:name "Reymbouts, Martin (II)"@nl.
+artists:427348 schema:name "Hyckes, Richard"@nl.
+artists:427349 schema:name "Sheldon, Richard"@nl.
+artists:427373 schema:name "Ronde, Cornelis de"@nl.
+artists:428085 schema:name "Jacopsz., Jacob (I)"@nl.
+artists:42880 schema:name "Jordaens, Jacques"@nl.
+artists:428922 schema:name "Pannemaker, Peter de (I)"@nl.
+artists:43185 schema:name "Kaal, Neeltje"@nl.
+artists:434237 schema:name "Woedstad, Gaston"@nl.
+artists:435676 schema:name "Plancken, Frans van der"@nl.
+artists:43580 schema:name "Kat, Ewoud de"@nl.
+artists:436144 schema:name "Wauters, Jacob"@nl.
+artists:43778 schema:name "Kelk, Fanny"@nl.
+artists:439021 schema:name "Clerck, Jan de (1486)"@nl.
+artists:44093 schema:name "Kessel, Jan van (I)"@nl.
+artists:442657 schema:name "Meester van Mosoll"@nl.
+artists:442685 schema:name "Takeda, Hideo"@nl.
+artists:442840 schema:name "Manufacture des Gobelins"@nl.
+artists:442841 schema:name "Manufacture De Beauvais"@nl.
+artists:443994 schema:name "Heyman, Peter"@nl.
+artists:445279 schema:name "Atelier de La Malgrange"@nl.
+artists:44839 schema:name "Rinse-Klinkenberg, Anna Elisabeth"@nl.
+artists:45030 schema:name "Knieper, Hans"@nl.
+artists:453904 schema:name "Janssens, Daniël"@nl.
+artists:453941 schema:name "Borcht a Castro, Jacques van der (I)"@nl.
+artists:453944 schema:name "Borcht, Jan van der (III)"@nl.
+artists:453946 schema:name "Borcht a Castro, Gaspar van der"@nl.
+artists:453947 schema:name "Borcht a Castro, Jacques van der (II)"@nl.
+artists:453948 schema:name "Borcht, Peter van der (1712-1763)"@nl.
+artists:453949 schema:name "Borcht, Jan-Frans van der (-1774)"@nl.
+artists:453956 schema:name "Cobus, Jan"@nl.
+artists:453957 schema:name "Coppens, François (II)"@nl.
+artists:453960 schema:name "Cracht, Pieter de"@nl.
+artists:453962 schema:name "Eurck, Christiaen van"@nl.
+artists:453963 schema:name "Goossenson, Abraham Adriaensz."@nl.
+artists:453966 schema:name "Lepelaer, Arent Jansz. de"@nl.
+artists:453968 schema:name "Melter, Jan de"@nl.
+artists:453969 schema:name "Oorlofs, Erasmus"@nl.
+artists:453970 schema:name "Pannemaker, François de"@nl.
+artists:453971 schema:name "Schaep, Tobias (I)"@nl.
+artists:454399 schema:name "Regteren Altena, Juliana Elisabeth van"@nl.
+artists:454522 schema:name "Quina, Remacules"@nl.
+artists:457093 schema:name "Reydams (wandtapijtweverij)"@nl.
+artists:457393 schema:name "Nauwincx, Joris"@nl.
+artists:457394 schema:name "Cracht, De (wandtapijtweverij)"@nl.
+artists:457477 schema:name "Eggermans, Daniel (I)"@nl.
+artists:457491 schema:name "Clerck, Jan de (1634)"@nl.
+artists:457551 schema:name "Reydams, Hendrik (I)"@nl.
+artists:457557 schema:name "Brugghen, Jaspar van der"@nl.
+artists:457580 schema:name "Dermoyen (wandtapijtweverij)"@nl.
+artists:457634 schema:name "Cornelissen, Jan Frans"@nl.
+artists:457635 schema:name "Wauters, Maria Anna"@nl.
+artists:457763 schema:name "Borcht, Van der (wandtapijtweverij)"@nl.
+artists:457765 schema:name "Clerck, Hieronymus de"@nl.
+artists:45790 schema:name "Koopmans, Grietje"@nl.
+artists:458002 schema:name "Spiering van Silvercroon, Pieter"@nl.
+artists:458022 schema:name "Maecht, De (wandtapijtweverij)"@nl.
+artists:458232 schema:name "Cordijs, Jan"@nl.
+artists:458265 schema:name "Puttere, Hendrik de"@nl.
+artists:458320 schema:name "Puttere, De (wandtapijtweverij)"@nl.
+artists:458371 schema:name "Maecht, Huybrecht de"@nl.
+artists:458375 schema:name "Maecht, Jan de (II)"@nl.
+artists:458412 schema:name "Maecht, Heyndrick de"@nl.
+artists:458414 schema:name "Maecht, Laurens de"@nl.
+artists:458425 schema:name "Cammen, Jehan van der"@nl.
+artists:458431 schema:name "Cammen, Philippe van der"@nl.
+artists:458433 schema:name "Cammen, Hendrik van der"@nl.
+artists:458461 schema:name "Dermoyen, Jan"@nl.
+artists:458462 schema:name "Dermoyen, Willem"@nl.
+artists:458474 schema:name "Dermoyen, Christiaan"@nl.
+artists:458476 schema:name "Dobbeleer, Claes de"@nl.
+artists:458477 schema:name "Eggermans, Daniel (II)"@nl.
+artists:458479 schema:name "Geubels (wandtapijtweverij)"@nl.
+artists:458480 schema:name "Ghieteels, Jan"@nl.
+artists:458481 schema:name "Ghieteels, Frans"@nl.
+artists:458482 schema:name "Goten, Jan van der"@nl.
+artists:458483 schema:name "Goten, Jacob van der (I)"@nl.
+artists:458484 schema:name "Grenier, Jean"@nl.
+artists:458486 schema:name "Haze, Jan de"@nl.
+artists:458490 schema:name "Hecke, Leo van den"@nl.
+artists:458492 schema:name "Hecke, Jan van den (-1634)"@nl.
+artists:458526 schema:name "Herzeele, Joost van (II)"@nl.
+artists:458530 schema:name "Kempeneer, Willem de"@nl.
+artists:458532 schema:name "Kempeneer, Jan de"@nl.
+artists:458536 schema:name "Leemans, Joris"@nl.
+artists:458537 schema:name "Leyniers (wandtapijtweverij)"@nl.
+artists:458538 schema:name "Leyniers, Gillis (II)"@nl.
+artists:458545 schema:name "Pannemaker, Erasmus de (I)"@nl.
+artists:458636 schema:name "Roelants, Matthijs"@nl.
+artists:458651 schema:name "Roelants (wandtapijtweverij)"@nl.
+artists:458668 schema:name "Poissonnier, Arnould"@nl.
+artists:458669 schema:name "Poissonnier, Jean"@nl.
+artists:458749 schema:name "Raes, Frans"@nl.
+artists:458757 schema:name "Reymbouts, Nicolaas"@nl.
+artists:458759 schema:name "Reymbouts, Frans"@nl.
+artists:458762 schema:name "Roelants, Willem"@nl.
+artists:458767 schema:name "Tons (kartontekenaars en wandtapijtwevers)"@nl.
+artists:458778 schema:name "Tons, Cornelis"@nl.
+artists:458779 schema:name "Tons, François"@nl.
+artists:458786 schema:name "Vos, Jan-Frans de"@nl.
+artists:458788 schema:name "Wauters, Philips"@nl.
+artists:458790 schema:name "Zeunen, Joos van"@nl.
+artists:458994 schema:name "Beveren, Boudewijn van"@nl.
+artists:459111 schema:name "Squilli, Benedetto di Michele"@nl.
+artists:459113 schema:name "Sconditi, Giovanni di Bastiano"@nl.
+artists:459121 schema:name "Lefebvre, Pierre"@nl.
+artists:459308 schema:name "Wouters, Peter"@nl.
+artists:459343 schema:name "Regelbrugge, Abel"@nl.
+artists:459344 schema:name "Reghelbrugghe, Joannes"@nl.
+artists:459460 schema:name "Janssens, Charles"@nl.
+artists:459484 schema:name "Maecht, Philipp de"@nl.
+artists:459485 schema:name "Tayer, Hans"@nl.
+artists:459614 schema:name "Cettomai, Felice"@nl.
+artists:459802 schema:name "Peterboergskaja sjpalernaja manoefaktoera"@nl.
+artists:462037 schema:name "Witte, Peter Elias de"@nl.
+artists:463968 schema:name "Vijvere, Guilliam van de"@nl.
+artists:464403 schema:name "Reydams, Jakob Ignaz"@nl.
+artists:464542 schema:name "Alsloot, Denijs van (I)"@nl.
+artists:464636 schema:name "Vervoet, Jean"@nl.
+artists:46679 schema:name "Kruyder, Herman"@nl.
+artists:466916 schema:name "Biest, Hans van der"@nl.
+artists:467490 schema:name "Mortlake (wandtapijtweverij)"@nl.
+artists:467717 schema:name "Rost, Jan (I)"@nl.
+artists:469072 schema:name "Leclerc, Marie-François"@nl.
+artists:469317 schema:name "Eichen, Berent van der"@nl.
+artists:469359 schema:name "Moor, Cesar de"@nl.
+artists:469361 schema:name "Moor, Alexander de"@nl.
+artists:469362 schema:name "Moor, Francis de"@nl.
+artists:469363 schema:name "Lambrechts, Arthur"@nl.
+artists:471896 schema:name "Bombeck, Seger"@nl.
+artists:472113 schema:name "Bernini, Leonardo"@nl.
+artists:472321 schema:name "Ferloni, Pietro"@nl.
+artists:472642 schema:name "Pirot, Andreas"@nl.
+artists:472752 schema:name "Behagle, Philippe (II)"@nl.
+artists:472757 schema:name "Behagle, Philippe (I)"@nl.
+artists:474146 schema:name "Thisius, Leonard Jacob"@nl.
+artists:475031 schema:name "Buning, Lizzy"@nl.
+artists:475103 schema:name "Jacopsz, Jacop"@nl.
+artists:475108 schema:name "Jacopsz, Jan (wandtapijtwever)"@nl.
+artists:475110 schema:name "Jan, Blanck"@nl.
+artists:475112 schema:name "Jansz, Huybrecht"@nl.
+artists:475117 schema:name "Jansz, Pouwels"@nl.
+artists:475122 schema:name "Jan (wandtapijtwever)"@nl.
+artists:475124 schema:name "Beterknaep, Joest Pietersz"@nl.
+artists:475125 schema:name "Jansz, Gielis"@nl.
+artists:475126 schema:name "Gillisz, Willem"@nl.
+artists:476505 schema:name "Eynde, Catherine van den"@nl.
+artists:476549 schema:name "Kolvenaer, Pieter"@nl.
+artists:476575 schema:name "Lanckaert, Joost Jansz."@nl.
+artists:476723 schema:name "Broe, Matthys de"@nl.
+artists:476858 schema:name "Thienpont, Joseph"@nl.
+artists:476975 schema:name "Jacop (wandtapijtwever)"@nl.
+artists:478640 schema:name "Poyntz, Francis"@nl.
+artists:479154 schema:name "Jansz, Willem (wever)"@nl.
+artists:480087 schema:name "Assche, Hendrik van"@nl.
+artists:480467 schema:name "Weverij De Uil"@nl.
+artists:481989 schema:name "Balota, Ileana"@nl.
+artists:482021 schema:name "Werniers, Willem"@nl.
+artists:482027 schema:name "Michele, San (wandtapijtweverij)"@nl.
+artists:48257 schema:name "Lau, Louise P."@nl.
+artists:483328 schema:name "Mercier, Pierre"@nl.
+artists:48502 schema:name "Le Brun, Charles"@nl.
+artists:48705 schema:name "Leclerc, Jean"@nl.
+artists:490160 schema:name "Goten, Frans van der"@nl.
+artists:490162 schema:name "Goten, Jacob van der (II)"@nl.
+artists:490192 schema:name "Steenbach, Frans van"@nl.
+artists:490194 schema:name "Steenbeke, Joris van"@nl.
+artists:490224 schema:name "Hasselt, Bernardino van"@nl.
+artists:490270 schema:name "Mattens, Andreas"@nl.
+artists:490499 schema:name "Karcher, Nicolas"@nl.
+artists:490506 schema:name "Karcher, Hans"@nl.
+artists:490512 schema:name "Slot, Gerard"@nl.
+artists:490532 schema:name "Gesulis, Giovanni de"@nl.
+artists:490537 schema:name "Hasselt, Jacob Ebert van"@nl.
+artists:490542 schema:name "Hasselt, Pieter van"@nl.
+artists:490662 schema:name "Buck, Gerard de (I)"@nl.
+artists:491674 schema:name "Cruys, Jacobus van den (II)"@nl.
+artists:493503 schema:name "Rost, Jan (II)"@nl.
+artists:493505 schema:name "Rost, Nicolaes"@nl.
+artists:493768 schema:name "Vermeiren, Herman"@nl.
+artists:493859 schema:name "Adriaensz, Cornelis (III)"@nl.
+artists:495939 schema:name "Bonaert, Abraham Jansz."@nl.
+artists:495983 schema:name "Comans, Marc de"@nl.
+artists:496204 schema:name "Borcht, Dillis van der"@nl.
+artists:496215 schema:name "Weelden, Hans van"@nl.
+artists:497043 schema:name "Tseraerts, Cornelis"@nl.
+artists:497296 schema:name "Dearle, John Henry"@nl.
+artists:498231 schema:name "La Croix, Jean de"@nl.
+artists:49858 schema:name "Leyniers, Daniël (I)"@nl.
+artists:499084 schema:name "Mozin, Jean-Baptiste"@nl.
+artists:499227 schema:name "Mary Stuart of Scotland"@nl.
+artists:499386 schema:name "Santhro, Daniel van"@nl.
+artists:49951 schema:name "Liefrinck, Hans (II)"@nl.
+artists:499917 schema:name "Lanoy, Guy de"@nl.
+artists:499948 schema:name "Roy, Jan de (c. 1470)"@nl.
+artists:499972 schema:name "Grienmann, Melchior"@nl.
+artists:500219 schema:name "Carmes, Jacob de"@nl.
+artists:500221 schema:name "Carmes, Moritz de"@nl.
+artists:500232 schema:name "Mostinck, Jan (I)"@nl.
+artists:500254 schema:name "Camerman, Henrick"@nl.
+artists:500255 schema:name "Muelen, Anthony van der"@nl.
+artists:500262 schema:name "Offilde, Joyce"@nl.
+artists:500265 schema:name "Baert, Arnold"@nl.
+artists:500271 schema:name "Happaert, Adriaen"@nl.
+artists:500273 schema:name "Pochon, Jean"@nl.
+artists:500274 schema:name "Staffeney, Johannes"@nl.
+artists:500277 schema:name "Mostinck, Severin"@nl.
+artists:500279 schema:name "Wageman, Jan (I)"@nl.
+artists:500282 schema:name "Parmentiers, Jan"@nl.
+artists:500283 schema:name "Lyms, Jacob"@nl.
+artists:500284 schema:name "Heyns, Simon"@nl.
+artists:500293 schema:name "Inghels, Josse"@nl.
+artists:500299 schema:name "Hullenberch, Philip"@nl.
+artists:500307 schema:name "Roy, Hans van (1533)"@nl.
+artists:500319 schema:name "Gorth, Anthonius de"@nl.
+artists:500335 schema:name "Leymeyers, Heribrecht"@nl.
+artists:500352 schema:name "Groze, Jan de la"@nl.
+artists:500382 schema:name "Hohenmuel, Heinrich von der"@nl.
+artists:500416 schema:name "Altenkirchen, Joseph von der"@nl.
+artists:500422 schema:name "Biest, Gillis van der"@nl.
+artists:500424 schema:name "Bieudre, Hendrik"@nl.
+artists:500427 schema:name "Plassegen, Hans van den"@nl.
+artists:500432 schema:name "Bosschen, Hans van den"@nl.
+artists:500442 schema:name "Brusigen, Pieter van"@nl.
+artists:500444 schema:name "Daele, Jan van den (I)"@nl.
+artists:500449 schema:name "Tiegen, Jan van (II)"@nl.
+artists:500455 schema:name "Dries, Willem van"@nl.
+artists:500464 schema:name "Elshen, Anton van den"@nl.
+artists:500467 schema:name "Visch, Jacob de"@nl.
+artists:500468 schema:name "Vort, Willem van der"@nl.
+artists:500478 schema:name "Fronhove, Wilhelm"@nl.
+artists:500480 schema:name "Gehechten, Peter van"@nl.
+artists:500487 schema:name "Handschumacher, Adrian"@nl.
+artists:500488 schema:name "Haring, Peter"@nl.
+artists:500500 schema:name "Impins, Stephan"@nl.
+artists:500507 schema:name "Labbé, Herman"@nl.
+artists:500511 schema:name "Muerhout, Joseph van"@nl.
+artists:500514 schema:name "Nai, Jakob de"@nl.
+artists:500518 schema:name "Necker, Andreas de"@nl.
+artists:500519 schema:name "Necker, Pasquier de"@nl.
+artists:500521 schema:name "Nieuwenhoven, Jacob van"@nl.
+artists:500522 schema:name "Nieuwenhoven, Lucas van"@nl.
+artists:500523 schema:name "Nieuwenhoven, Paulus van"@nl.
+artists:500536 schema:name "Roloff, Hans"@nl.
+artists:500537 schema:name "Roloff, Peter (II)"@nl.
+artists:500544 schema:name "Rosier, Hans"@nl.
+artists:500547 schema:name "Sadtes, Abraham"@nl.
+artists:500549 schema:name "Schmidt, Martin de"@nl.
+artists:500550 schema:name "Spierinck, Willem van"@nl.
+artists:500557 schema:name "Stalrauber, Franciscus"@nl.
+artists:500558 schema:name "Walter, Jacob"@nl.
+artists:500564 schema:name "Vouters, Dietrich"@nl.
+artists:500566 schema:name "Delibet, Marx"@nl.
+artists:500612 schema:name "Baert, Jan (II)"@nl.
+artists:500803 schema:name "Utersprot, Hendrick"@nl.
+artists:500805 schema:name "Tielen, Cornelis"@nl.
+artists:501191 schema:name "Roy, Christian de"@nl.
+artists:502104 schema:name "Pere, Hans van der"@nl.
+artists:502748 schema:name "Vanderbank, John (I)"@nl.
+artists:502819 schema:name "Spiers, Aernout"@nl.
+artists:502864 schema:name "Pull, Hans van"@nl.
+artists:502884 schema:name "Schelkens, Gillis"@nl.
+artists:502938 schema:name "Os, Dierick van"@nl.
+artists:503066 schema:name "Hersella de Flandria, Levinus"@nl.
+artists:503067 schema:name "Gigli, Livino"@nl.
+artists:503068 schema:name "Johanne de Brugondia"@nl.
+artists:503211 schema:name "Vliete, Jacob van der"@nl.
+artists:503581 schema:name "Mostinck, Cornelius"@nl.
+artists:503583 schema:name "Welles, Henry"@nl.
+artists:503585 schema:name "Nachtegael, Jan"@nl.
+artists:503646 schema:name "Boom, Arnold van den"@nl.
+artists:503649 schema:name "Vercord, John"@nl.
+artists:503651 schema:name "Ampe, Josse"@nl.
+artists:503652 schema:name "Plancke, NN"@nl.
+artists:503653 schema:name "Lens, Jacques"@nl.
+artists:503655 schema:name "Hullenberch, Francis"@nl.
+artists:503657 schema:name "Hullenberch, Garrett"@nl.
+artists:503659 schema:name "Culvenaer, John"@nl.
+artists:503662 schema:name "Culvenaer, Mary"@nl.
+artists:503664 schema:name "Culvenaer, Stephen"@nl.
+artists:503669 schema:name "Benood, William (I)"@nl.
+artists:503671 schema:name "Benood, William (II)"@nl.
+artists:503672 schema:name "May, Stephen de (II)"@nl.
+artists:503675 schema:name "May, Matthew de"@nl.
+artists:503677 schema:name "Bridges, James (1670)"@nl.
+artists:503679 schema:name "Leefdael, Peter van"@nl.
+artists:503682 schema:name "Culvenaer, Peter"@nl.
+artists:503818 schema:name "Verbellis, Janes de"@nl.
+artists:505496 schema:name "Stommans , Pieter"@nl.
+artists:505589 schema:name "Comans, Alexander de"@nl.
+artists:506963 schema:name "Ruffelaer, Pieter"@nl.
+artists:506964 schema:name "Goetvrient, Adriaen"@nl.
+artists:506968 schema:name "Grootendale, Steven van"@nl.
+artists:506970 schema:name "Chimay, Gossaert"@nl.
+artists:506993 schema:name "Schepper, Matthys de"@nl.
+artists:507580 schema:name "Goes, Hendrick van der"@nl.
+artists:508021 schema:name "Gheyntelm, Philippus Joannis"@nl.
+artists:508022 schema:name "Blaine, Rinaldo Jean de"@nl.
+artists:508098 schema:name "Thale, Hugo vom"@nl.
+artists:508295 schema:name "Stalpaert, Jeremyas"@nl.
+artists:509451 schema:name "Apans, Jacob"@nl.
+artists:510223 schema:name "Baudouyn, Jehan"@nl.
+artists:510444 schema:name "Berghe, Peter van den (tapestry weaver)"@nl.
+artists:510451 schema:name "Bernard, Michel"@nl.
+artists:511515 schema:name "Lepelaer, Arent Arentsz. de"@nl.
+artists:511521 schema:name "Lepelaer, Gillis de"@nl.
+artists:511523 schema:name "Lepelaer, Isaac Jansz. de"@nl.
+artists:511524 schema:name "Lepelaer, Nicolaes de"@nl.
+artists:511525 schema:name "Lepelaer, Peter Roosz. de"@nl.
+artists:511895 schema:name "Dermoyen, Roderigo"@nl.
+artists:512013 schema:name "Segers, Jan Jansz."@nl.
+artists:512109 schema:name "Caen, Anthonie (II)"@nl.
+artists:512112 schema:name "Huisman, Abraham"@nl.
+artists:512113 schema:name "Cauwenbergh, Gillis van"@nl.
+artists:512114 schema:name "Hoornbeecke, Jan Thysz. van"@nl.
+artists:512298 schema:name "Rombouts, Pauwels"@nl.
+artists:512599 schema:name "Groot, Jacques de"@nl.
+artists:512681 schema:name "Bucher, Paul de"@nl.
+artists:512683 schema:name "Eskilson, Nils"@nl.
+artists:512698 schema:name "Morrens, Nicholas"@nl.
+artists:512701 schema:name "Brier, Philipp de"@nl.
+artists:512703 schema:name "Vest, Jacob van der"@nl.
+artists:512705 schema:name "Hendricx, Jacques"@nl.
+artists:512706 schema:name "Inghels, Jan"@nl.
+artists:512710 schema:name "Bock, Hendrick de"@nl.
+artists:512712 schema:name "Gootens, Carel"@nl.
+artists:512713 schema:name "Putter, Carel de"@nl.
+artists:512715 schema:name "Maeght, Willem de"@nl.
+artists:512717 schema:name "Hullenberch, Jan (I)"@nl.
+artists:512719 schema:name "Hullenberch, Jan (II)"@nl.
+artists:512724 schema:name "Ophalfens, Jan (I)"@nl.
+artists:512725 schema:name "Maeght, David de"@nl.
+artists:512726 schema:name "Rosset, Jan"@nl.
+artists:512729 schema:name "May, Stephen de (I)"@nl.
+artists:512737 schema:name "Baese, Joris van den"@nl.
+artists:512742 schema:name "Quickelberghe, Emmanuel van"@nl.
+artists:512743 schema:name "Quickelberghe, Vincent van"@nl.
+artists:512749 schema:name "Comans, Hieronymus de"@nl.
+artists:512753 schema:name "Meus, Jan"@nl.
+artists:512754 schema:name "Iersick, Willem Pietersz. van"@nl.
+artists:512756 schema:name "Cramer, Willem"@nl.
+artists:512759 schema:name "Heetwale, Jan"@nl.
+artists:512761 schema:name "Vispaen, Willem"@nl.
+artists:512793 schema:name "Ubbergen, Jan van"@nl.
+artists:512794 schema:name "Maecht, Guillaume de"@nl.
+artists:512853 schema:name "Sweerts, Frans (I)"@nl.
+artists:512855 schema:name "Sweerts, Frans (II)"@nl.
+artists:512863 schema:name "Velde, Joost van de"@nl.
+artists:512872 schema:name "Holandt, Maerten van"@nl.
+artists:512874 schema:name "Holandt, Pieter van"@nl.
+artists:512877 schema:name "Holandt, Elias Pietersz."@nl.
+artists:512886 schema:name "Rufelaer, Jan Jansz."@nl.
+artists:512943 schema:name "Acker, Jan Thysz. van den"@nl.
+artists:512944 schema:name "Acker, Matthys Thysz. van den"@nl.
+artists:512945 schema:name "Aelvoet, Pieter Pietersz."@nl.
+artists:512953 schema:name "Anders, Willem Andriesz."@nl.
+artists:512957 schema:name "Arcke, Sacharias Cornelis van"@nl.
+artists:512974 schema:name "Ariensz, Cornelis"@nl.
+artists:512975 schema:name "Ariensz., Jan"@nl.
+artists:513024 schema:name "Daele, Vincent van den"@nl.
+artists:513041 schema:name "Giachetto di Benedetto d'Arazzo"@nl.
+artists:513044 schema:name "Grifone di Giovanni fiammingo"@nl.
+artists:513045 schema:name "Fiammingo, Gherardo (I)"@nl.
+artists:513047 schema:name "Gent, Pieter van"@nl.
+artists:513049 schema:name "Karcher, Luigi (I)"@nl.
+artists:513050 schema:name "Castello, Egidio da"@nl.
+artists:513052 schema:name "Bervet, Pietro"@nl.
+artists:513057 schema:name "Moreels, Hendryck"@nl.
+artists:513241 schema:name "Banck, Abraham Engelsz. van den"@nl.
+artists:513245 schema:name "Banck, Abraham van den"@nl.
+artists:513246 schema:name "Banck, Engel van den"@nl.
+artists:513247 schema:name "Beesbrugge, Tobias van"@nl.
+artists:513248 schema:name "Bekourt, Jean"@nl.
+artists:513251 schema:name "Bogaert, Gyelis van den"@nl.
+artists:513252 schema:name "Braeckel, Philips van"@nl.
+artists:513254 schema:name "Cleef, Jacob Jacobsz. van"@nl.
+artists:513468 schema:name "Goeman, Albert"@nl.
+artists:513549 schema:name "Koenebier, Lowys"@nl.
+artists:513550 schema:name "Coppenolle, Daniël Cornelisz. van"@nl.
+artists:513551 schema:name "Coppenolle, Joost van"@nl.
+artists:513553 schema:name "Coppens, Cornelis (II)"@nl.
+artists:513555 schema:name "Coppens, Samuel Cornelisz."@nl.
+artists:513556 schema:name "Coppenol, Pieter van"@nl.
+artists:513559 schema:name "Coye, David van"@nl.
+artists:513562 schema:name "Coye, Jeremias van"@nl.
+artists:513566 schema:name "Cracht, Abraham van"@nl.
+artists:513568 schema:name "Cracht, Pieter Abrahamsz. de"@nl.
+artists:513569 schema:name "Crits, Jan de"@nl.
+artists:513571 schema:name "Daele, Josias Segersz. van"@nl.
+artists:513573 schema:name "Dammelaer, Jacob Joosten"@nl.
+artists:513574 schema:name "Davidsz., David"@nl.
+artists:513575 schema:name "Denysz., Pieter"@nl.
+artists:513576 schema:name "Dircx, Ysbrandt"@nl.
+artists:513577 schema:name "Eerde, Jan Engelsz. van der"@nl.
+artists:513578 schema:name "Froons, Pauwels"@nl.
+artists:513580 schema:name "Gardenijs, Stephanus Willemsz."@nl.
+artists:513583 schema:name "Goossensom, Adriaen"@nl.
+artists:513585 schema:name "Moorman, H.A"@nl.
+artists:513586 schema:name "Goossensz., Joost"@nl.
+artists:513588 schema:name "Grondelingh, Jacques Joosten"@nl.
+artists:513589 schema:name "Grondelingh, Joost"@nl.
+artists:513600 schema:name "Sheldon, Ralph"@nl.
+artists:513605 schema:name "Doort, Peter van"@nl.
+artists:513614 schema:name "Graeff, Hendrick Jansz."@nl.
+artists:513615 schema:name "Groote, Mattheus Engelsz."@nl.
+artists:513617 schema:name "Gucht, Bartholomeus van der"@nl.
+artists:513618 schema:name "Gucht, Pieter van der"@nl.
+artists:513620 schema:name "Henricx, Moises"@nl.
+artists:513627 schema:name "Hoboken, Jan Harmansz. van"@nl.
+artists:513629 schema:name "Holandt, Elias Maertensz. van"@nl.
+artists:513636 schema:name "Holandt, Pieter Maertensz. van"@nl.
+artists:513637 schema:name "Hoochbosch, Abraham van"@nl.
+artists:513639 schema:name "Hoorn, Christiaen Danielsz. van"@nl.
+artists:513642 schema:name "Joosten, Marcus"@nl.
+artists:513643 schema:name "Joosten, Pieter"@nl.
+artists:513645 schema:name "Joppen, Huybrecht"@nl.
+artists:513647 schema:name "Vigne, Charles"@nl.
+artists:513648 schema:name "Lepelaer, Jan Frans de"@nl.
+artists:513650 schema:name "Milaen, Bartholomeus de (I)"@nl.
+artists:513651 schema:name "Moten, Jan van der"@nl.
+artists:513652 schema:name "Moten, Adriaen van der"@nl.
+artists:513654 schema:name "Nachtegael, Peeter"@nl.
+artists:513655 schema:name "Nachtegael, Willem Pietersz."@nl.
+artists:513656 schema:name "Onclaer, Jan"@nl.
+artists:513657 schema:name "Paton, Joris"@nl.
+artists:513661 schema:name "Pottere, Joris de"@nl.
+artists:513662 schema:name "Putte, Jacques van der"@nl.
+artists:513663 schema:name "Putten, Jan Jansz. van"@nl.
+artists:513664 schema:name "Raedt, Jan de"@nl.
+artists:513665 schema:name "Rufelaer, Johan"@nl.
+artists:513666 schema:name "Schaep, David"@nl.
+artists:513669 schema:name "Schaep, Joost Pietersz."@nl.
+artists:513670 schema:name "Schaep, Pieter Davidsz."@nl.
+artists:513671 schema:name "Schaep, Tobias (II)"@nl.
+artists:513672 schema:name "Schepper, Abraham Gillisz. de"@nl.
+artists:513673 schema:name "Schepper, Franchoys de"@nl.
+artists:513674 schema:name "Schepper, Gillis de"@nl.
+artists:513675 schema:name "Scheybels, Gillis"@nl.
+artists:513676 schema:name "Schuyr, Lowys Jacobsz. van der"@nl.
+artists:513677 schema:name "Zee, Balthasar van der"@nl.
+artists:513678 schema:name "Zee, Dominicus van der"@nl.
+artists:513679 schema:name "Simays, Dirck"@nl.
+artists:513681 schema:name "Smit, Abraham Jansz. de"@nl.
+artists:513682 schema:name "Spiere, Richard van"@nl.
+artists:513684 schema:name "Steene, Hans van den"@nl.
+artists:513685 schema:name "Straten, Jan van der (II)"@nl.
+artists:513687 schema:name "Utens, Maerten"@nl.
+artists:513688 schema:name "Vechte, Joost Lievensz. van der"@nl.
+artists:513692 schema:name "Vechte, Lieven van der"@nl.
+artists:513694 schema:name "Verseyl, Feytje"@nl.
+artists:513695 schema:name "Vos, Bastiaen Mathijsz. de"@nl.
+artists:513696 schema:name "Vreeckum, Laurens Jansz. van"@nl.
+artists:513698 schema:name "Vriendt, François de"@nl.
+artists:513699 schema:name "Vriendt, Frans de"@nl.
+artists:513700 schema:name "Vroede, Augustijn de"@nl.
+artists:513701 schema:name "Vyst, Jan van der"@nl.
+artists:513702 schema:name "Vyver, Jasper van der"@nl.
+artists:513703 schema:name "Walraedt, Joost Joosten"@nl.
+artists:513704 schema:name "Wannemaker, Abraham Lievens de"@nl.
+artists:513705 schema:name "Wee, Pieter van der"@nl.
+artists:513706 schema:name "Weege, Joost van der"@nl.
+artists:513707 schema:name "Weeldige, Peeter de"@nl.
+artists:513708 schema:name "Weghe, Steven Jansz. van  de"@nl.
+artists:513709 schema:name "Wolf, Hans de"@nl.
+artists:513710 schema:name "Woutersz, Anthony"@nl.
+artists:513711 schema:name "Wouters, Jannetje Lourysdr."@nl.
+artists:513715 schema:name "Gucht, Jacobus van der"@nl.
+artists:513717 schema:name "Bockwout, Hendrick"@nl.
+artists:513733 schema:name "Ansis, Adriaen"@nl.
+artists:513735 schema:name "Baert, Jacobus"@nl.
+artists:513736 schema:name "Baert, Johannes Alexander"@nl.
+artists:513737 schema:name "Baert, Pieter Jansz."@nl.
+artists:513738 schema:name "Braems, Jan"@nl.
+artists:513739 schema:name "Broek, Jasper Jansz. van den"@nl.
+artists:513741 schema:name "Brugge, Pieter van den"@nl.
+artists:513743 schema:name "Cauwenbergh, Jan Michielsz. van"@nl.
+artists:513744 schema:name "Cauwenburch, Michiel Jansz. van"@nl.
+artists:513745 schema:name "Kittevilder, Jacobus"@nl.
+artists:513746 schema:name "Clerq, Frans de"@nl.
+artists:513750 schema:name "Hauterkens, Michiel"@nl.
+artists:513752 schema:name "Hecke, Pieter van den (I)"@nl.
+artists:513753 schema:name "Hosse, Gerardt"@nl.
+artists:513755 schema:name "Houvast, David"@nl.
+artists:513758 schema:name "Verren, Jan van (II)"@nl.
+artists:513759 schema:name "Verren, Frans Willem van"@nl.
+artists:513760 schema:name "Huysman, Gielis Cornelisz."@nl.
+artists:513761 schema:name "Jansz., Hector"@nl.
+artists:513763 schema:name "Mol, Franchoys de"@nl.
+artists:513765 schema:name "Plancke, Jan van der"@nl.
+artists:513770 schema:name "Reghelbrugge, Carel Joost"@nl.
+artists:513771 schema:name "Roelandt, Jan"@nl.
+artists:513773 schema:name "Ryke, Jacob de"@nl.
+artists:513776 schema:name "Sandersz., Adriaen"@nl.
+artists:513777 schema:name "Schuer, Pieter de"@nl.
+artists:513779 schema:name "Tavernier, Charles de"@nl.
+artists:513780 schema:name "Thonisz., Cornelis"@nl.
+artists:513786 schema:name "Thonisz., Thonis"@nl.
+artists:513787 schema:name "Verbanck, Joost"@nl.
+artists:513789 schema:name "Willebeeck, Jillis van"@nl.
+artists:513792 schema:name "Wouters, Johannes Laurens"@nl.
+artists:513794 schema:name "Wymes, Joost de"@nl.
+artists:513808 schema:name "Banck, Laurens van den"@nl.
+artists:513818 schema:name "Robbijns, Antoon"@nl.
+artists:513820 schema:name "Heyst, Eberhard van"@nl.
+artists:513838 schema:name "Mostinck, Jan (II)"@nl.
+artists:513867 schema:name "Backere, Ariaen de"@nl.
+artists:513868 schema:name "Hercelin, Ferrant"@nl.
+artists:513869 schema:name "Hercelin, Peter"@nl.
+artists:513870 schema:name "Doorne, Gerard"@nl.
+artists:513893 schema:name "Bosch, Jan Baptist van"@nl.
+artists:513898 schema:name "Bloyart, Colart"@nl.
+artists:513901 schema:name "Capars, Jehan"@nl.
+artists:513902 schema:name "Dary, Robert"@nl.
+artists:513926 schema:name "Bauwens, Simon (II)"@nl.
+artists:514012 schema:name "Paulussen, Peter"@nl.
+artists:514023 schema:name "Mondekens, Jan"@nl.
+artists:514312 schema:name "Peux, Jean"@nl.
+artists:514346 schema:name "Kips, Arnold"@nl.
+artists:514420 schema:name "Roby, Léonard"@nl.
+artists:514755 schema:name "Manufacture d'Aubusson"@nl.
+artists:514869 schema:name "Blommaert, Joris (I)"@nl.
+artists:514871 schema:name "Blommaert, Jacob"@nl.
+artists:514875 schema:name "Clerck, Rochus de"@nl.
+artists:514876 schema:name "Weimes, Arend van"@nl.
+artists:514879 schema:name "Holbrughe, Lieven van"@nl.
+artists:514880 schema:name "DeCritz, Baudewin"@nl.
+artists:514882 schema:name "Driessche, Tobias van den"@nl.
+artists:514883 schema:name "Brugge, Paschier van den"@nl.
+artists:514887 schema:name "Mollier, Joos de"@nl.
+artists:514888 schema:name "Keluneicz, Christof"@nl.
+artists:514889 schema:name "Stuerbaut, Martin"@nl.
+artists:514893 schema:name "Robbyns, Philippe"@nl.
+artists:514907 schema:name "Kerchove, Joos van den"@nl.
+artists:514909 schema:name "Plancken, Raphaël van der"@nl.
+artists:514913 schema:name "Plancken, Ghileyn van der"@nl.
+artists:514924 schema:name "Plancken, Loys van der"@nl.
+artists:514927 schema:name "Jans, Jean (I)"@nl.
+artists:514933 schema:name "Blommaert, Joris (II)"@nl.
+artists:514934 schema:name "Blommaert, Jan (I)"@nl.
+artists:514942 schema:name "Jans, Jean (II)"@nl.
+artists:514948 schema:name "Kerchove, Anton van den"@nl.
+artists:514950 schema:name "Kerchove, Pasquir van den"@nl.
+artists:514953 schema:name "Kerchove, Andries van den"@nl.
+artists:514957 schema:name "Kerchove, Gilles van den"@nl.
+artists:514959 schema:name "Kerchove, Frans van den"@nl.
+artists:514963 schema:name "Kerchove, Jan van den (I)"@nl.
+artists:514967 schema:name "Kerchove, Jan van den (II)"@nl.
+artists:514969 schema:name "Kerchove, Jan van den (III)"@nl.
+artists:514971 schema:name "Kerchove, Jacob van den (II)"@nl.
+artists:514973 schema:name "Kerchove, Peter van der (I)"@nl.
+artists:514975 schema:name "Kerchove, Peter van dern (II)"@nl.
+artists:514981 schema:name "Kerchove, Joris van den"@nl.
+artists:514987 schema:name "Cardon, Frédéric"@nl.
+artists:514988 schema:name "Stichelen, Frans van der"@nl.
+artists:514989 schema:name "Simoens, Jan"@nl.
+artists:514991 schema:name "Smet, Leonaert de"@nl.
+artists:514993 schema:name "Neusse, Adriaen"@nl.
+artists:515007 schema:name "Stichele, Jan van der (I)"@nl.
+artists:515015 schema:name "Sweerts, Melchior"@nl.
+artists:515043 schema:name "Moor, Jan de (I)"@nl.
+artists:515276 schema:name "Boxelaer, Peter van"@nl.
+artists:515466 schema:name "Uxelles, Guillermo d'"@nl.
+artists:515786 schema:name "Houtman, Jan"@nl.
+artists:515892 schema:name "De La Planche (wandtapijtweverij)"@nl.
+artists:516318 schema:name "Dessarteaux (wandtapijtweverij)"@nl.
+artists:516470 schema:name "Verren, Pieter van"@nl.
+artists:516623 schema:name "Aa, Adriaen van der"@nl.
+artists:516866 schema:name "Adams, Igshaan"@nl.
+artists:517029 schema:name "Jehan di Bruggia"@nl.
+artists:517033 schema:name "Valentino di Raz"@nl.
+artists:518006 schema:name "Rovere, Christoffel de"@nl.
+artists:518030 schema:name "Brackens, Diedrick"@nl.
+artists:518051 schema:name "Hasselet, Catharina"@nl.
+artists:518063 schema:name "Heizele, Perceval"@nl.
+artists:518114 schema:name "Segon, Anthonis"@nl.
+artists:518231 schema:name "Tsas, Hendrik"@nl.
+artists:518323 schema:name "Ruddere, Jan de (I)"@nl.
+artists:518331 schema:name "Godefroyt, Laureyns"@nl.
+artists:518332 schema:name "Godefroyt, Joseph"@nl.
+artists:518333 schema:name "Godefroyt, Jan"@nl.
+artists:518334 schema:name "Godefroyt, Pierre"@nl.
+artists:518335 schema:name "Godefroyt, Adriaen"@nl.
+artists:520031 schema:name "Buck, Jaques de"@nl.
+artists:520335 schema:name "Diertyns, Joris"@nl.
+artists:520336 schema:name "Gindertalen, Anthonis van"@nl.
+artists:520338 schema:name "Diertyns, Hendrick"@nl.
+artists:520450 schema:name "Crayloot, Jan"@nl.
+artists:520451 schema:name "Crayloot, François"@nl.
+artists:520452 schema:name "Crayloot, Jacob"@nl.
+artists:520453 schema:name "Crayloot, Anselmus"@nl.
+artists:520454 schema:name "Crayloot, Louis"@nl.
+artists:520455 schema:name "Crayloot, Denijs"@nl.
+artists:520456 schema:name "Crayloot, Rogier"@nl.
+artists:521117 schema:name "Acker, Abraham Matthysz. van den"@nl.
+artists:521246 schema:name "Aubry, Reynault"@nl.
+artists:521297 schema:name "Strete, Cornelius van der"@nl.
+artists:521301 schema:name "Clerc, Jan de (1484)"@nl.
+artists:521341 schema:name "Paradis, Jehan"@nl.
+artists:521604 schema:name "Escamaing, Michel d'"@nl.
+artists:521608 schema:name "Costers, François de"@nl.
+artists:521609 schema:name "Carpentier, Etienne"@nl.
+artists:521953 schema:name "Roy, Lorenz van"@nl.
+artists:52262 schema:name "Mander, Karel van (I)"@nl.
+artists:52263 schema:name "Mander, Karel van (II)"@nl.
+artists:522884 schema:name "Brussel, Albert van"@nl.
+artists:522942 schema:name "Cassel, Jacques de"@nl.
+artists:522970 schema:name "Lattre, Giovanni de"@nl.
+artists:522975 schema:name "Croisetes, Jehan de"@nl.
+artists:522978 schema:name "Birgières, Jacquemin"@nl.
+artists:522979 schema:name "Flaymal, Rifflard"@nl.
+artists:522981 schema:name "Davion, Nicolas"@nl.
+artists:522984 schema:name "Bouché, Jean-François"@nl.
+artists:522988 schema:name "Feré, Pierre"@nl.
+artists:522991 schema:name "Feré, Jehan"@nl.
+artists:522994 schema:name "Plantez, Bernard"@nl.
+artists:523003 schema:name "Visse, Jean"@nl.
+artists:523010 schema:name "Villers, Jehan de"@nl.
+artists:523018 schema:name "Potier, Haton le"@nl.
+artists:523021 schema:name "Fuzelier, Robert Le"@nl.
+artists:523023 schema:name "Wallois, Jehan de"@nl.
+artists:523024 schema:name "Englentier, Gilles"@nl.
+artists:523025 schema:name "Davion, Jacquemart"@nl.
+artists:523026 schema:name "Davion, Mathieu"@nl.
+artists:523031 schema:name "Gernier, Gillis"@nl.
+artists:523038 schema:name "Grue, Rinaldo"@nl.
+artists:523049 schema:name "Giovanni di Fiandra da Correggio"@nl.
+artists:523053 schema:name "Mille, Giovanni"@nl.
+artists:523055 schema:name "Mille, Gimenta"@nl.
+artists:523178 schema:name "Felicis, Johannes"@nl.
+artists:523449 schema:name "Aelst, Pieter van (II)"@nl.
+artists:523451 schema:name "Maret, Henry de"@nl.
+artists:523609 schema:name "Caen, Antheunis (I)"@nl.
+artists:523615 schema:name "Claes, Filips"@nl.
+artists:523616 schema:name "Clercq, Jan de (1564)"@nl.
+artists:523620 schema:name "Ahmed, Faig"@nl.
+artists:523622 schema:name "Dondre, Francois"@nl.
+artists:523625 schema:name "Hauweel, Elias"@nl.
+artists:523627 schema:name "Houtte, Janne van den"@nl.
+artists:523630 schema:name "Kethele, Arent de"@nl.
+artists:523631 schema:name "Mets, Roeland de"@nl.
+artists:523635 schema:name "Moten, Gillis van der"@nl.
+artists:523637 schema:name "Oosthende, Jan van"@nl.
+artists:52404 schema:name "Mantegna, Andrea"@nl.
+artists:52771 schema:name "Marot, Daniël (I)"@nl.
+artists:55105 schema:name "Melis, Dorien"@nl.
+artists:55172 schema:name "Memelink, Hans"@nl.
+artists:55593 schema:name "Meulen, Adam Frans van der"@nl.
+artists:56569 schema:name "Moillon, Isaac"@nl.
+artists:56911 schema:name "Monnoyer, Jean-Baptiste"@nl.
+artists:60937 schema:name "Orley, Bernard van (I)"@nl.
+artists:60939 schema:name "Orley, Jan van"@nl.
+artists:6103 schema:name "Beks, Elma"@nl.
+artists:61222 schema:name "Oudry, Jean Baptiste"@nl.
+artists:6138 schema:name "Belin de Fontenay, Jean Baptiste (I)"@nl.
+artists:62563 schema:name "Pennings, Willy"@nl.
+artists:63276 schema:name "Picasso, Pablo"@nl.
+artists:63559 schema:name "Pillement, Jean"@nl.
+artists:63930 schema:name "Poccetti, Bernardino"@nl.
+artists:63978 schema:name "Poërson, Charles"@nl.
+artists:64550 schema:name "Pourbus, Frans (II)"@nl.
+artists:64763 schema:name "Preti, Mattia"@nl.
+artists:64926 schema:name "Procaccini, Andrea"@nl.
+artists:6495 schema:name "Benjamin, Hilda M."@nl.
+artists:65943 schema:name "Rees-Dutilh, Adya van"@nl.
+artists:6698 schema:name "Berain, Jean (I)"@nl.
+artists:67854 schema:name "Romanelli, Giovanni Francesco"@nl.
+artists:68204 schema:name "Rosa, Salvator"@nl.
+artists:68737 schema:name "Rubens, Peter Paul"@nl.
+artists:69391 schema:name "Sallaert, Antoon"@nl.
+artists:69641 schema:name "Sani, Domenico Maria"@nl.
+artists:71006 schema:name "Schoor, Ludovicus van"@nl.
+artists:71410 schema:name "Schut, Cornelis (I)"@nl.
+artists:73663 schema:name "Snellinck, Jan (I)"@nl.
+artists:74051 schema:name "Soutman, Pieter"@nl.
+artists:74296 schema:name "Spierinckx, Pieter"@nl.
+artists:74297 schema:name "Spierincx, Aert"@nl.
+artists:75652 schema:name "Straet, Jan van der"@nl.
+artists:75857 schema:name "Struycken, Peter"@nl.
+artists:76187 schema:name "Swanenburg, Isaac Claesz. van"@nl.
+artists:76785 schema:name "Teniers, David (I)"@nl.
+artists:76786 schema:name "Teniers, David (II)"@nl.
+artists:76787 schema:name "Teniers, David (III)"@nl.
+artists:79357 schema:name "Vanderbank, Mozes"@nl.
+artists:79679 schema:name "Veenstra-Verhoeven, Ineke"@nl.
+artists:79793 schema:name "Velde, Willem van de (I)"@nl.
+artists:79989 schema:name "Venne, Adriaen van de"@nl.
+artists:80781 schema:name "Verwilt, Domenicus (I)"@nl.
+artists:81117 schema:name "Vinckboons, David (I)"@nl.
+artists:81985 schema:name "Vouet, Simon"@nl.
+artists:82222 schema:name "Vroom, Hendrik"@nl.
+artists:82376 schema:name "Wael, Cornelis de (II)"@nl.
+artists:84222 schema:name "Wieringen, Cornelis Claesz. van"@nl.
+artists:85690 schema:name "Wouwerman, Philips"@nl.
+artists:85951 schema:name "Ykens, Peter"@nl.
+artists:88395 schema:name "Nerée tot Babberich-van Houten, Constance Petronella de"@nl.
+artists:89459 schema:name "Jansen, Maggy"@nl.
+artists:89464 schema:name "Royen, Willem van (II)"@nl.
+artists:90350 schema:name "Blokker-Veggerby, Bodil"@nl.
+artists:9120 schema:name "Bloemaert, Abraham"@nl.
+artists:94247 schema:name "Haese, Maximiliaen de"@nl.
+artists:94562 schema:name "Lotyn, Johannes"@nl.
+artists:96308 schema:name "Xavery, Jan Baptist"@nl.
